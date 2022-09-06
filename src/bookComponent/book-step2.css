@@ -1,0 +1,41 @@
+
+
+    .btn-calender{
+        width: 10vw;
+        border-radius: 0;
+        height: 15vh;
+        margin: 5px;
+    }
+    .row{
+        margin-left: 4vw;
+       
+    
+    }
+    .step2PageContainer{
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(riverStep1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .step2ContanetContainer{
+        width: 85vw;
+        height: 90vh;
+        background-color: white;
+        
+        
+    }
+.hr2{
+    border-color: black;
+    width: 95%;
+    border-width: 2px;
+    opacity: 0.7;
+    margin-left: 2vw;
+    
+}
+    

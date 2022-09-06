@@ -1,0 +1,45 @@
+.step1PageContainer{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(riverStep1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.step1ContanetContainer{
+    width: 80vw;
+    height: 80vh;
+    background-color: white;
+    
+    
+}
+
+
+.pick-city-btn{
+    margin:1em;
+   width: 20vw;
+   height: 15vh;
+
+}
+
+.back{
+    transform: translateX(33vw);
+    margin-top: 2vw;
+   
+    
+
+}
+
+.hr{
+   
+   border-color: black;
+   width: 90%;
+   border-width: 2px;
+   opacity: 0.7;
+   margin-left: 4vw;
+}
+
