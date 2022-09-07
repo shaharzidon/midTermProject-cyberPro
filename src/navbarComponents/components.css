@@ -1,0 +1,67 @@
+.mainnav{
+    width: 100vw;
+    background: #9CDFBE;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F9EDCC, ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transform: translateY(-1vh);
+   position: fixed;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-shadow: 4px 3px 6px black;
+
+}
+.volunteerbtn{
+    background-color: #2EB5D0;
+    border-color: black;
+    width: 20vw;
+    border-width: 1.5px;
+    margin-left: 3%;
+    width: fit-content;
+    margin: 3px;
+    
+  
+}
+
+.logo{
+margin-top: 10px;
+margin-left: 3%;
+}
+
+.nav{
+    margin-left: 50%;
+ display: flex;
+}
+
+.volunteerbtn:hover{background-color:#175A40 ;
+    border-color: white;
+    
+}
+
+.nav-link {
+    display: inline-block;
+    position: relative;
+    color: #000000;
+  }
+
+.nav-link:after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #2EB5D0;
+    transform-origin: bottom right;
+    transition: transform 0.45s ease-out;
+  }
+  
+  .nav-link:hover:after {
+    transform: scaleX(1);
+    transform-origin:bottom center;
+  }
+  
+  :visited{
+    background-color: black;
+    
+  }
+ 
