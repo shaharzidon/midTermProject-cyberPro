@@ -4,20 +4,61 @@ import { Button } from "react-bootstrap";
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Form from 'react-bootstrap/Form';
 import "./book-step4.css"
+import Modal from 'react-bootstrap/Modal';
+import { useState } from 'react';
+import React from 'react';
+
+
+
+
+
+
+//moda-bootstrapl
+function MyVerticallyCenteredModal(props) {
+
+
+    return (
+
+      <Modal class='modal-step4'
+        {...props}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered>
+        <Modal.Header closeButton >
+          <Modal.Title id= "contained-modal-title-vcenter" >
+           נקבעה קיאק בהצלחה
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body >
+          <p>
+            היי ... נקבעה לך קיאק ב... בשעה... 
+          </p>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button onClick={props.onHide}> חזרה למסך הבית</Button>
+        </Modal.Footer>
+      </Modal>
+    );
+  }
 
 
 function BookStep4() {
+    const [modalShow, setModalShow] = React.useState(false);
+
+
+
+
     return (
   <div className="step4PageContainer">
       <div className='step4ContanetContainer'>
           {/* back to main page (will add later on) */}
        <div>   <Button variant="dark" className='back' >חזרה</Button></div>
         
-       <hr className='hr'></hr>
+         <hr className='hr'></hr>
   
-        <h2 className='stepHead'> שלב 4 : הכניסו פרטים</h2>
+         <h2 className='stepHead'> שלב 4 : הכניסו פרטים</h2>
 
-        {/* <div className='input-hero'>
+        {/* <div className='input-hero'>    boootstrap version
 <span className='input-container'>
     <span>
         <FloatingLabel
@@ -138,7 +179,9 @@ function BookStep4() {
       </div>
     </div>
   </form>
-  <div>   <Button variant="success" className='next' >המשך</Button></div>
+  <div>   <Button variant="success" className='next' onClick={() => setModalShow(true)}>המשך</Button>
+            <MyVerticallyCenteredModal show={modalShow} onHide={() => setModalShow(false)} />
+  </div>
 </div>
 
 

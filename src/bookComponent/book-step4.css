@@ -99,7 +99,28 @@ input[type=text], select, textarea {
     margin-top: 6px;
     text-align: right;
   }
+
+
+  .modal-step4{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
   
+
+  .modal-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn-close{
+    position: absolute;
+    right: 3vw;
+  }
+
   select{
     text-align: right;
   }
