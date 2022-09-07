@@ -1,0 +1,32 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.our-impact {
+  background-color: wheat;
+  height: 100vw;
+}
+.our-impact h1 {
+  position: absolute;
+  color: #175a40;
+  width: 100vw;
+}
+.upper-section {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-around;
+}
+
+.upper-section h3 {
+  margin-top: 200px;
+  color: #175a40;
+  top: 5vh;
+  left: 50vw;
+}
+.bottom-section h2 {
+  margin-top: 200px;
+  color: #175a40;
+  top: 5vh;
+  left: 50vw;
+  justify-content: left;
+}

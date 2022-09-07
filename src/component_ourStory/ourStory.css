@@ -1,0 +1,59 @@
+.section1 {
+  background-color: coral;
+  width: 100vw;
+  height: 100vh;
+}
+
+.section2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: tan;
+  display: flex;
+}
+
+.section2-leftSection {
+  margin: 30px;
+}
+.section2-rightSection {
+  margin: 30px;
+}
+
+.section3 {
+  background-color: teal;
+}
+.section3-content {
+  margin: 30px;
+}
+
+.section4 {
+  background-color: crimson;
+  width: 100vw;
+  height: 40vh;
+}
+
+.section4-cardsSection {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section4-cardsSection-leftSection {
+  background-color: bisque;
+  border-radius: 10%;
+  margin: 30px;
+  width: 20vw;
+  height: 25vh;
+}
+.section4-cardsSection-leftSection-content {
+    margin: 30px;
+  }
+.section4-cardsSection-rightSection {
+  background-color: bisque;
+  border-radius: 10%;
+  margin: 30px;
+  width: 20vw;
+  height: 25vh;
+}
+
+.section4-cardsSection-rightSection-content {
+    margin: 30px;
+  }
