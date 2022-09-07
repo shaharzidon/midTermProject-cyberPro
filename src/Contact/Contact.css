@@ -1,0 +1,66 @@
+.contribute-contact{
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url(riverStep1.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1px;
+    display: flex;
+
+}
+
+.side-contact{
+position: relative;
+    width: 35vw;
+    height: 75vh;
+    background-color: rgb(9, 84, 9);
+    margin-top: 10vh;
+    margin-left: 5vw;
+    border-radius: 3%;
+    display: flex;
+    justify-content: right !important;
+
+}
+
+    label {
+       text-align: right;
+       margin-right: 2vw !important;
+       color: white;
+    }
+    input{
+        text-align: right;
+        
+        width: 30vw  !important;
+        height: 3vh !important;
+        margin-right: 2vw !important;
+        margin-left: 3vw !important;
+    }
+    textarea{
+        width: 30vw  !important;
+        height: 10vh;
+        margin-right: 2vw !important;
+        margin-left: 3vw !important;
+    }
+    .submit-contact{
+        height: 5vh;
+        width: 13vw;
+        margin-top: 12vh;
+        margin-left: 10vw;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .left-contant-container{
+        background-color: green;
+        width: 45vw;
+        height: 75vh;
+        background-color: rgb(9, 84, 9);
+        margin-top: 10vh;
+        margin-left: 5vw;
+        border-radius: 3%;
+        
+        margin-left: 10vw;
+    }
+
+    

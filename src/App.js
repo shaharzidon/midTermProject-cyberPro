@@ -6,6 +6,7 @@ import BookStep3 from './bookComponent/book-step3';
 import Example from './bookComponent/book-step3';
 import BookStep4 from './bookComponent/book-step4';
 import Contribute from './ContributeComponent/Contribute';
+import Contact from './Contact/Contact';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/* <BookStep2></BookStep2>
       <BookStep3></BookStep3> */}
       {/* <BookStep4></BookStep4> */}
-      <Contribute></Contribute>
+      {/* <Contribute></Contribute> */}
+      <Contact></Contact>
     </div>
   );
 }
