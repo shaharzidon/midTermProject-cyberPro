@@ -12,25 +12,38 @@ function OurStory() {
             <div className='section2'>
                 <div className='section2-leftSection'>
                     <div className='section2-leftSection-content'>
-                        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam repudiandae
-                            voluptatem quam? Cumque, dolor. Obcaecati nostrum necessitatibus aspernatur ad
-                            facere itaque, et eaque doloremque adipisci nisi similique nesciunt accusamus
-                            ratione?
+                        <p> .״הקיאק״ היא עמותה סביבתית העוסקת במתנדבים במאבק בזיהום הסביבה בזמן שיט קיאקים
                         </p>
-                        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam repudiandae
-                            voluptatem quam? Cumque, dolor. Obcaecati nostrum necessitatibus aspernatur ad
-                            facere itaque, et eaque doloremque adipisci nisi similique nesciunt accusamus
-                            ratione?
+                        <p> .אנו מציעים לכולם לקפוץ לסיפון של הקיאק ולחתור בחינם בשני תנאים פשוטים
                         </p>
-                        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam repudiandae
-                            voluptatem quam? Cumque, dolor. Obcaecati nostrum necessitatibus aspernatur ad
-                            facere itaque, et eaque doloremque adipisci nisi similique nesciunt accusamus
-                            ratione?
+                        <p>  .השקיעו את זמנכם במים באיסוף פסולת •
                         </p>
-                        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam repudiandae
-                            voluptatem quam? Cumque, dolor. Obcaecati nostrum necessitatibus aspernatur ad
-                            facere itaque, et eaque doloremque adipisci nisi similique nesciunt accusamus
-                            ratione?
+                        <p>  .השקיעו את זמנכם במים באיסוף פסולת •
+                        </p>
+                       <p>
+                       אנו מחויבים למשוך אנשים בגובה העיניים,
+                        לחבר אותם על פני דורות ולתת להם את ההרגשה של להיות באותה סירה, מחוברים למטרה טובה.
+                        .פסולת בטבע היא נושא שמעסיק את כולנו וזו האחריות המשותפת שלנו להגן על המים שלנו
+
+                       </p>
+                        <p> .ביחד, נוכל לעשות שינוי
+                        </p>
+                        <p> אנו מחויבים למשוך אנשים בגובה העיניים, לחבר אותם על פני
+                            דורות ולתת להם את ההרגשה של להיות באותה סירה, מחוברים למטרה טובה.
+                        </p>
+                        <p> 
+            פסולת בטבע היא נושא שמעסיק את כולנו וזו האחריות המשותפת שלנו להגן על המים שלנו.
+
+            
+                        </p>
+                        <p> אנחנו יודעים ש״הקיאק״ אינו
+                            הפתרון שיציל את האוקיינוסים מזיהום פלסטיק. עם זאת, ״הקיאק״ היא דרך מדהימה
+                            ויעילה מאוד לגרום לאזרחים לנקוט בפעולה מקומית, לחבר את עצמם ואחרים למים,
+                            ולהתחיל דיאלוג על מה יידרש מכולנו כדי להילחם בזיהום הפלסטיק בסביבות מימיות.
+
+                        </p>
+                        <p> הצטרפו למאבק!
+
                         </p>
                     </div>
                 </div>
