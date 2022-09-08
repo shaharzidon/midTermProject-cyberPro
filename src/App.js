@@ -21,6 +21,7 @@ function App() {
   return (
     <div className="App">       
       {/* home page  */}
+      <MainNav></MainNav>
       <FirstSection></FirstSection>
       <OurImpact></OurImpact>
       <JoinUs></JoinUs>

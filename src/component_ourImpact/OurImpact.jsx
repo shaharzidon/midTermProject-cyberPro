@@ -1,5 +1,7 @@
 import React from 'react';
 import './ourImpact.css'
+import icon1 from '../component_ourImpact/icon1green.png'
+import icon2 from '../component_ourImpact/icon2green.png'
 function OurImpact() {
     return (
         <div className='our-impact'>
@@ -7,10 +9,11 @@ function OurImpact() {
             <div className='upper-section'>
                 <div className='left-section'>
                     <div className='left-section-img'>
-                        <h3>add a logo</h3>
+                        
 
                     </div>
                     <div className='left-section-text'>
+                    <h3><img src={icon1} height={400} width={350}/></h3>
                         <div>יש לנו</div>
                         <div>4534535</div>
                         <div>מתנדבים</div>
@@ -19,6 +22,7 @@ function OurImpact() {
                 </div>
                 <div className='right-section'>
                     <div className='right-section-img'>
+                    <h3><img src={icon2} height={400} width={350}/></h3>
                         <h3>add a logo</h3>
                     </div>
                     <div className='right-section-text'>
