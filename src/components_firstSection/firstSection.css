@@ -1,9 +1,32 @@
-.first-section{
+/* .first-section{
     background-color: rosybrown;
-    width:100vw ;
+    width:100vw 
     height:100vh ;
-}   
+}    */
 
 .main-title h1{
+    color: black;
     
+}
+.first-section{
+    background-image:url(cleaining.jpeg);
+    width: 100vw;
+    opacity: 80%;
+    height: 100vh;
+    padding-top: 50px;
+    display: block;
+    
+
+    
+    
+    
+    
+}
+
+.div2{
+    height: 30vh;
+    width: 100vw;
+}
+.contant-container{
+    margin-top: 15vh;
 }

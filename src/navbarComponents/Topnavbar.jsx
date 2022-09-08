@@ -26,14 +26,12 @@ function MainNav() {
             </span>
           
           </Nav>
-          <Button className='volunteerbtn' >הירשמו להתנדבות <MdOutlineAppRegistration/></Button>
-          <Button className='volunteerbtn' >תרמו לנו <FaHeart/></Button>
-          {/* <Button variant="outline-drak">תרמו למיזם</Button>{' '} */}
         </Container>
-      </Navbar>    
+      </Navbar>    <div className='volunteerbtn'><Button className='volunteerbtn' >הירשמו להתנדבות <MdOutlineAppRegistration/></Button>
+          <Button className='volunteerbtn' >תרמו לנו <FaHeart/></Button></div>
        
        
-      </div>
+          </div>
  
      
     </>

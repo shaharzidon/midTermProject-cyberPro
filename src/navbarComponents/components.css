@@ -1,5 +1,6 @@
 .mainnav{
     width: 100vw;
+    height: 20vh;
     background: #9CDFBE;  /* fallback for old browsers */
     /* background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #F9EDCC, ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -7,6 +8,7 @@
    position: fixed;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   box-shadow: 4px 3px 6px black;
+  z-index: 1;
 
 }
 .volunteerbtn{
@@ -15,8 +17,9 @@
     width: 20vw;
     border-width: 1.5px;
     margin-left: 3%;
-    width: fit-content;
     margin: 3px;
+    place-items: end;
+    /* height: fit-content; */
     
   
 }
@@ -26,10 +29,10 @@ margin-top: 10px;
 margin-left: 3%;
 }
 
-.nav{
+/* .nav{
     margin-left: 50%;
  display: flex;
-}
+} */
 
 .volunteerbtn:hover{background-color:#175A40 ;
     border-color: white;
@@ -60,8 +63,24 @@ margin-left: 3%;
     transform-origin:bottom center;
   }
   
-  :visited{
-    background-color: black;
-    
+
+  .container{
+    background-color: unset;
+    margin-left: 15%;
+    margin-top:2%;
+    border: 0;
+
   }
+
+    
+  div.volunteerbtn{
+  height: 0px;
+  align-items: center;
+  margin-left: 78%;
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: flex-end;
+}
  
