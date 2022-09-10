@@ -7,7 +7,7 @@ function EndSection() {
         <div className='end-section'>
             <table>
                 <tr>
-                    <th>עוד עלינו</th>
+                    <th >עוד עלינו</th>
                     <th>צרו קשר</th>
                     <th>תמכו בנו</th>
                     <th></th>
@@ -19,7 +19,7 @@ function EndSection() {
                 </tr>
                 <tr>
                     <td>הצטרפו אלינו <FaUserFriends className='join' /></td>
-                    <td>kayak@gmail.com <MdEmail className='mail' /></td>
+                    <td>Hakayak@gmail.com <MdEmail className='mail' /></td>
                     <td>תרמו לנו <FaHeart className='donate' /></td>
                 </tr>
                 <tr>

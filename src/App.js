@@ -33,6 +33,8 @@ function App() {
       <Faq></Faq>
       <FlipCards></FlipCards>
       <Contact></Contact>
+      <Contribute></Contribute>
+      <BookStep1></BookStep1>
     </div>
   );
 }

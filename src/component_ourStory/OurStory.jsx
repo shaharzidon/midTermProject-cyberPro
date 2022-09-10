@@ -12,37 +12,38 @@ function OurStory() {
             <div className='section2'>
                 <div className='section2-leftSection'>
                     <div className='section2-leftSection-content'>
-                        <p> .״הקיאק״ היא עמותה סביבתית העוסקת במתנדבים במאבק בזיהום הסביבה בזמן שיט קיאקים
+                        <p dir="rtl"> ״הקיאק״ היא עמותה סביבתית העוסקת במתנדבים במאבק בזיהום הסביבה בזמן שיט קיאקים.
                         </p>
-                        <p> .אנו מציעים לכולם לקפוץ לסיפון של הקיאק ולחתור בחינם בשני תנאים פשוטים
+                        <p dir="rtl"> אנו מציעים לכולם לקפוץ לסיפון של הקיאק ולחתור בחינם בשני תנאים פשוטים.
                         </p>
-                        <p>  .השקיעו את זמנכם במים באיסוף פסולת •
+                        <p dir="rtl">   • השקיעו את זמנכם במים באיסוף פסולת.
                         </p>
-                        <p>  .השקיעו את זמנכם במים באיסוף פסולת •
+                        <p dir="rtl">   • שתפו את כמות הזבל שאספתם באצעות התיוג Hakayak#.
                         </p>
-                       <p>
-                       אנו מחויבים למשוך אנשים בגובה העיניים,
-                        לחבר אותם על פני דורות ולתת להם את ההרגשה של להיות באותה סירה, מחוברים למטרה טובה.
-                        .פסולת בטבע היא נושא שמעסיק את כולנו וזו האחריות המשותפת שלנו להגן על המים שלנו
 
-                       </p>
-                        <p> .ביחד, נוכל לעשות שינוי
+                        <p dir="rtl">
+                            אנו מחויבים למשוך אנשים בגובה העיניים,
+                            לחבר אותם על פני דורות ולתת להם את ההרגשה של להיות באותה סירה, מחוברים למטרה טובה.
+                            פסולת בטבע היא נושא שמעסיק את כולנו וזו האחריות המשותפת שלנו להגן על המים שלנו.
+
                         </p>
-                        <p> אנו מחויבים למשוך אנשים בגובה העיניים, לחבר אותם על פני
+                        <p dir="rtl"> ביחד, נוכל לעשות שינוי.
+                        </p>
+                        <p dir="rtl"> אנו מחויבים למשוך אנשים בגובה העיניים, לחבר אותם על פני
                             דורות ולתת להם את ההרגשה של להיות באותה סירה, מחוברים למטרה טובה.
                         </p>
-                        <p> 
-            פסולת בטבע היא נושא שמעסיק את כולנו וזו האחריות המשותפת שלנו להגן על המים שלנו.
+                        <p dir="rtl">
+                            פסולת בטבע היא נושא שמעסיק את כולנו וזו האחריות המשותפת שלנו להגן על המים שלנו.
 
-            
+
                         </p>
-                        <p> אנחנו יודעים ש״הקיאק״ אינו
+                        <p dir="rtl"> אנחנו יודעים ש״הקיאק״ אינו
                             הפתרון שיציל את האוקיינוסים מזיהום פלסטיק. עם זאת, ״הקיאק״ היא דרך מדהימה
                             ויעילה מאוד לגרום לאזרחים לנקוט בפעולה מקומית, לחבר את עצמם ואחרים למים,
                             ולהתחיל דיאלוג על מה יידרש מכולנו כדי להילחם בזיהום הפלסטיק בסביבות מימיות.
 
                         </p>
-                        <p> הצטרפו למאבק!
+                        <p dir="rtl"> הצטרפו למאבק!
 
                         </p>
                     </div>
@@ -56,44 +57,38 @@ function OurStory() {
                         </iframe>
                     </div>
                     <div className='section2-rightSection-buttons'>
-                        <button className='contact'>צרו קשר</button>
-                        <button className='partners'>השותפים שלנו</button>
-                        <button className='contribution'> ביצוע תרומה <FaHeart></FaHeart></button>
+                        <button className='contact' dir="rtl">צרו קשר</button>
+                        <button className='partners' dir="rtl">השותפים שלנו</button>
+                        <button className='contribution' dir="rtl"> ביצוע תרומה <FaHeart></FaHeart></button>
                     </div>
                     <div className='section2-rightSection-content'>
-                        <h2>!יחד אנו חותרים בשביל נקיון המים בישראל</h2>
+                        <h2 dir="rtl">יחד אנו חותרים בשביל נקיון המים בישראל!</h2>
                     </div>
                 </div>
             </div>
             <div className='section3'>
                 <div className='section3-title'>
-                    <h1>הסיפור שלנו</h1>
+                    <h1 dir="rtl">הסיפור שלנו</h1>
                 </div>
-                <div className='section3-content'>
-                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam repudiandae
-                        voluptatem quam? Cumque, dolor. Obcaecati nostrum necessitatibus aspernatur ad
-                        facere itaque, et eaque doloremque adipisci nisi similique nesciunt accusamus
-                        ratione?
+                <div className='section3-content' dir="rtl">
+                    <p> בשנת 2022 3 חבר׳ה צעירים: בן שמואל, אריק פינל ושחר צידון החלו את לימודיהם בקורס 
+                        Full-Stack  של חברת Cyber-Pro Israel . במעט הזמן הפנוי שהיה להם בסופי השבוע
+                         הם החלו לאסוף אשפה שצפה במימי תל אביב. החברים הטובים
+                         החליטו לנסות לייעל את התהליך ולאסוף את הזבל בזמן שהם 
+                        שוכרים קיאק. פה נולד רעיון מיזם ״הקיאק״. החברים החלו
+                         לאסוף אשפה כחלק משיט קיאקים בנהר הירקון בצורה מוסדרת. עד 
+                        מהרה הבחינו שלמחרת יש אשפה באותם מקומות שוב. היה
+                         צורך בעזרה כדי להתמודד עם בעיה זו, וכולם היו צריכים
+                         להיות מסוגלים להשתתף. לאחר מכן הם הפיצו את הרעיון של 
+                        לאסוף זבל כחלק משיט קיאקים. הרעיון תפס תאוצה מסחררת
+                         שבועות קדימה וכל האפשרויות לשיט נקיון היו תפוסות.
                     </p>
-                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam repudiandae
-                        voluptatem quam? Cumque, dolor. Obcaecati nostrum necessitatibus aspernatur ad
-                        facere itaque, et eaque doloremque adipisci nisi similique nesciunt accusamus
-                        ratione?
-                    </p>
-                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam repudiandae
-                        voluptatem quam? Cumque, dolor. Obcaecati nostrum necessitatibus aspernatur ad
-                        facere itaque, et eaque doloremque adipisci nisi similique nesciunt accusamus
-                        ratione?
-                    </p>
-                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam repudiandae
-                        voluptatem quam? Cumque, dolor. Obcaecati nostrum necessitatibus aspernatur ad
-                        facere itaque, et eaque doloremque adipisci nisi similique nesciunt accusamus
-                        ratione?
-                    </p>
-                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam repudiandae
-                        voluptatem quam? Cumque, dolor. Obcaecati nostrum necessitatibus aspernatur ad
-                        facere itaque, et eaque doloremque adipisci nisi similique nesciunt accusamus
-                        ratione?
+                    <p dir="rtl"> 
+                    במהלך השבועות הראשנים, המתנדבים אספו 
+                     טונות של פסולת פלסטיק 
+                     בעיקר מנהר הירקון בתל אביב ובניקוי חופים שונים. הבנו שיש הזדמנות
+                     לעשות משהו מעבר לסביבה המימית. זה הרגע שבו הבנו שאנחנו יכולים לעשות
+                     שינוי בישראל כאשר עובדים יחד עם קהילות מקומיות ברחבי ערים ומועצות אחרות.
                     </p>
                 </div>
             </div>
@@ -101,21 +96,22 @@ function OurStory() {
                 <div className='section4-cardsSection'>
                     <div className='section4-cardsSection-leftSection'>
                         <div className='section4-cardsSection-leftSection-title'>
-                            <h1>החזון שלנו</h1>
+                            <h1 dir="rtl">החזון שלנו</h1>
                         </div>
                         <div className='section4-cardsSection-leftSection-content'>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis debitis
-                                assumenda perferendis quaerat ab porro dolorem incidunt, sequi cum omnis!
+                            <p dir="rtl">לאפשר לכולם לנקוט פעולה מקומית למען הסביבה על 
+                            ידי בניית רשת ארצית של ״הקיאק״,יחד עם 
+                            שיתוף הידע והכנסת אחריות סביבתית לחיי היומיום של האנשים.
                             </p>
                         </div>
                     </div>
                     <div className='section4-cardsSection-rightSection'>
                         <div className='section4-cardsSection-rightSection-title'>
-                            <h1>המשימה שלנו</h1>
+                            <h1 dir="rtl">המשימה שלנו</h1>
                         </div>
                         <div className='section4-cardsSection-rightSection-content'>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis debitis
-                                assumenda perferendis quaerat ab porro dolorem incidunt, sequi cum omnis!
+                            <p dir="rtl">אנו שואפים לערב כמה שיותר אנשים במאבק בזיהום המים בישראל וביחד,
+                             לשחרר סביבות מימיות מקומיות מפלסטיק ופסולת אחרת.
                             </p>
                         </div>
                     </div>
