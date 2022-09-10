@@ -1,8 +1,15 @@
 import React from 'react';
 import './joinUs.css'
+import eilat from './eilat.jpeg'
+import kineret from './kineret.webp'
+import telaviv from './telaviv.jpeg'
+import haifa from './haifa.jpeg'
+import Button from 'react-bootstrap/Button';
+
 function JoinUs() {
     return (
         <div className='joinUs'>
+<<<<<<< HEAD
             <div className='main-title' dir="rtl"><h1>הצטרפו לקהילת הקיאק!</h1></div>
             <div className='para'>
                 <p dir="rtl">
@@ -22,16 +29,33 @@ function JoinUs() {
                     אנו שמחים לפרסם את מיטב התמונות שלך בערוצי המדיה החברתית שלנו.
                      הצטרף לקהילת ״הקיאק״ שלך היום וחתרו עם אחרים עוד היום!
                 </p>
+=======
+            <div className='main-title'><h1> הצטרפו לקהילת הקיאק וקחו חלק קטן בתהליך גדול</h1></div>
+            <div className='para'>
+          קהילת המתנדבים שלנו פרוסה בכל רחבי הארץ וניתן להתנדב במגוון מקומות מדן ועד אילת 
+          הצטרפו לקבוצות הפייסבוק שלנו הקרובות לאיזור מגוריכם וקחו חלק קטן משינוי ענק במידה ואתם מעוניינים לתרום למיזם תוכלו לעשות זאת בקלות 
+          על ידי לחיצה על כפתור התרומה הממוקם בראש האתר ובכך לתמוך בנו בשאיפה לארץ נקייה ויפה 
+>>>>>>> be72bdc (fix)
             </div>
             <div className='secondary-title'>
                 <h2 dir="rtl">קחו חלק בקבוצות הפייסבוק שלנו:</h2>
             </div>
-            {/*להתאים כפתורים למקומות בהם מציעים את השירות שלנו */}
             <div className='btn-ctrl'>
-                <div className='btn-1'><button>תל אביב</button></div>
-                <div className='btn-2'><button>טבריה</button></div>
-                <div className='btn-3'><button>חיפה</button></div>
-                <div className='btn-4'><button>אילת</button></div>
+            <Button className='btn1' variant="outline-*">תל אביב</Button>
+            <Button className='btn2' variant="outline-*">כינרת</Button>
+            <Button className='btn3' variant="outline-*">חיפה</Button>
+            <Button className='btn4' variant="outline-*">אילת</Button>
+            </div>
+            {/*להתאים כפתורים למקומות בהם מציעים את השירות שלנו */}
+            <div className='images'>
+                
+                <img className='telaviv' src={telaviv} width={250} height={250}></img>
+        
+                <img className='kineret' src={kineret} width={250} height={250} />
+              
+                <img className='haifa' src={haifa} width={250} height={250} />
+            
+                <img className='eilatimg' src={eilat} width={250} height={250}></img>
             </div>
         </div>
     );
