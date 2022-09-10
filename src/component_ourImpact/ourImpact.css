@@ -30,3 +30,8 @@
   left: 50vw;
   justify-content: left;
 }
+
+.bottom-section{
+  text-align: right;
+  margin: 30px
+}

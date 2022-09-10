@@ -6,6 +6,7 @@
     background-size: cover;
     padding-top: 1px;
     display: flex;
+    background-color: wheat;
 
 }
 
@@ -13,7 +14,7 @@
 position: relative;
     width: 35vw;
     height: 75vh;
-    background-color: rgb(9, 84, 9);
+    background-color: #2EB5D0;
     margin-top: 10vh;
     margin-left: 5vw;
     border-radius: 3%;
@@ -52,15 +53,20 @@ position: relative;
     }
 
     .left-contant-container{
-        background-color: green;
+        background-color: #2EB5D0;
         width: 45vw;
         height: 75vh;
-        background-color: rgb(9, 84, 9);
         margin-top: 10vh;
         margin-left: 5vw;
         border-radius: 3%;
-        
         margin-left: 10vw;
     }
 
-    
+    .submit-contact-dark{
+        background-color: #049d63;
+        transform: translateX(100px) translateY(60px);
+    }
+
+    .contribute-contact-email{
+        color: white;
+    }

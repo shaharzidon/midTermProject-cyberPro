@@ -5,7 +5,7 @@ import icon2 from '../component_ourImpact/icon2green.png'
 function OurImpact() {
     return (
         <div className='our-impact'>
-            <h1>ההשפעה שלנו</h1>
+            <h1 dir="rtl">ההשפעה שלנו</h1>
             <div className='upper-section'>
                 <div className='left-section'>
                     <div className='left-section-img'>
@@ -14,9 +14,9 @@ function OurImpact() {
                     </div>
                     <div className='left-section-text'>
                     <h3><img src={icon1} height={400} width={350}/></h3>
-                        <div>יש לנו</div>
+                        <div dir="rtl">יש לנו</div>
                         <div>4534535</div>
-                        <div>מתנדבים</div>
+                        <div dir="rtl">מתנדבים</div>
                     </div>
 
                 </div>
@@ -26,19 +26,19 @@ function OurImpact() {
                         <h3>add a logo</h3>
                     </div>
                     <div className='right-section-text'>
-                        <div>:ביחד, ניקינו יותר מ</div>
+                        <div dir="rtl">ביחד, ניקינו יותר מ:</div>
                         <div>120</div>
-                        <div>ק״ג של זבל ממקורות המים בישראל</div>
+                        <div dir="rtl">ק״ג של זבל ממקורות המים בישראל</div>
 
                     </div>
                 </div>
             </div>
 
             <div className='bottom-section'>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur possimu
-                    impedit esse magnam eveniet architecto enim amet quos reprehenderit iusto,
-                    animi quidem illo. Minima asperiores dicta voluptatem reiciendis
-                    laudantium non?</p>
+                <p dir="rtl"> ״הקיאק״ היא עמותה סביבתית המתבססת במתנדבים במאבק בזיהום הסביבה בזמן שייט קיאקים. 
+                אנו מזמינים את כולם לקפוץ לסיפוןשל ״הקיאק״ ולחתור בחינם בשני
+                 תנאים פשוטים - העבירו את זמנכם על המים באיסוף פסולת ושתפו את החוויה שלכם ברשתות 
+                 החברתיות באמצעות Hakayak#.</p>
             </div>
         </div>
     );
