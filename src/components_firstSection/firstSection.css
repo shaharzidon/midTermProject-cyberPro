@@ -23,8 +23,7 @@ position:unset;
     font-family: system-ui;
     color: black;
        opacity: 100%;
-         margin-top:0%;
-      
+        
 }
 
 
@@ -41,13 +40,16 @@ position:unset;
 .text{
     
     font-weight: bold;
-    margin-right: 63%;
-    color: rgb(0, 0, 0);
+    margin-right: -10%;
+    color: rgb(255 255 255);
     position: absolute;
     /* margin-right: 0%; */
-    margin-left: 1%;
-    margin-top: -48%;
-    background-color: #12a182;
+    margin-left: 10%;
+    margin-top:-45%;
+    font-size: 8vh;
+text-shadow: -4px 0px 20px black;
+ 
+   
 }
 
 .buttons-ctrl{
