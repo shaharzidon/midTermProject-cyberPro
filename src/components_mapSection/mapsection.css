@@ -1,8 +1,8 @@
 .mapSection{
-    background-color: wheat;
+    background-color: rgb(255, 255, 255);
 }
 
 .mapSection .map-frame{
-    background-color: wheat;
+    background-color: rgb(255, 255, 255);
     margin-bottom: 30px;
 }

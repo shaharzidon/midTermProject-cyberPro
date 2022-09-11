@@ -1,10 +1,13 @@
+.main-title{
+    text-shadow: -20px -2px 20px white;
+}
 .joinUs{
-    background-image: url(seabackground.avif);
+    background-image: url(background2.jpeg);
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
-
     width: 100vw;
-    height: 100vh;
+    height: 70vh;
+    background-position: 10% 25%;
 }
 .secondary-title{
     text-align: center;
@@ -13,19 +16,29 @@
     margin-bottom: 10%;
    font-size: 60px;
     text-shadow: -2px 0px 20px black;
-
+    color: aliceblue;
+    margin-top: 8%;
+    margin-bottom: -6%;
 }
+
+
 .para{
     
     font-weight: 600;
     line-height: 2;
     margin: 30px;
+    color: #fffffc;
+    margin-left: 16%;
+    margin-right: 16%;
+    text-shadow: -5px -1px 20px black
 }
 
 .btn-ctrl{
     display: flex;
     justify-content: center;
-    margin-left: 10%;
+    margin-left: 10vw;
+    margin-top: 33vh;
+    
 }
 .btn-ctrl :hover{
     background-color: #2fb5d0 !important;
@@ -34,10 +47,6 @@
     background-color: transparent;
 }
 
-<<<<<<< HEAD
-.para{
-    text-align: right;
-=======
 .btn1{
     background-color: #175a3f!important;
 }
@@ -57,5 +66,4 @@
 
     display: flex;
     justify-content: space-around;
->>>>>>> be72bdc (fix)
 }
