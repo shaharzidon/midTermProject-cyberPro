@@ -118,3 +118,28 @@ transform: translateY(-10vh); }
     #12a182!important;
 
 }
+
+@media screen and (max-width: 768px) {
+    .text
+    {
+        transform: translateX(240px) translateY(-500px);
+    }
+  }
+@media screen and (max-width: 768px) {
+    .btndiv
+    {
+        transform: translateX(-181px) translateY(-850px);
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        flex-direction: row-reverse;
+    }
+  }
+/* @media screen and (max-width: 768px) {
+    .homebtn2
+    {
+        transform: translateX(240px) translateY(-500px);
+    }
+  } */

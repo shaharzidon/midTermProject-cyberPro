@@ -1,7 +1,7 @@
 .mainnav{
     width: 100vw;
-    height: 15vh;
-    background: white;  /* fallback for old browsers */
+    height: 20vh;
+    background: #9CDFBE;  /* fallback for old browsers */
     /* background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #F9EDCC, ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     transform: translateY(-1vh);
@@ -9,21 +9,19 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   box-shadow: 4px 3px 6px black;
   z-index: 1;
- 
-  ;
 
 }
 .volunteerbtn{
-    background-color: #2EB5D0;
-    border-color: black;
-    width: 20vw;
-    border-width: 1.5px;
-    margin-left: 3%;
-    margin: 3px;
-    place-items: end;
+  background-color: #2EB5D0;
+  border-color: black;
+  width: 20vw;
+  border-width: 1.5px;
+  margin-left: 3%;
+  margin: 3px;
+  place-items: end;
 
-    
   
+
 }
 
 .logo{
@@ -34,52 +32,226 @@ margin-left: 3%;
 
 
 .volunteerbtn:hover{background-color:#175A40 ;
-    border-color: white;
-    
+  border-color: white;
+  
 }
 
 .nav-link {
-    display: inline-block;
-    position: relative;
-    color: #000000;
-  }
+  display: inline-block;
+  position: relative;
+  color: #000000;
+}
 
 .nav-link:after {
-    content: '';
-    width: 100%;
-    position: absolute;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #2EB5D0;
-    transform-origin: bottom right;
-    transition: transform 0.45s ease-out;
-  }
-  
-  .nav-link:hover:after {
-    transform: scaleX(1);
-    transform-origin:bottom center;
-  }
-  
-
-  .container{
-    background-color: unset;
-    margin-left: 15%;
-    margin-top:2%;
-    border: 0;
-
-  }
-
-    
-  div.volunteerbtn{
-  height: 0px;
-  align-items: center;
-  margin-left: 78%;
-  display: flex;
-  flex-direction: column-reverse;
-  flex-wrap: wrap;
-  align-content: flex-end;
-  justify-content: flex-end;
+  content: '';
+  width: 100%;
+  position: absolute;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #2EB5D0;
+  transform-origin: bottom right;
+  transition: transform 0.45s ease-out;
 }
- 
+
+.nav-link:hover:after {
+  transform: scaleX(1);
+  transform-origin:bottom center;
+}
+
+
+.container{
+  background-color: unset;
+  margin-left: 15%;
+  margin-top:2%;
+  border: 0;
+
+}
+
+  
+div.volunteerbtn{
+height: 0px;
+align-items: center;
+margin-left: 78%;
+display: flex;
+flex-direction: column-reverse;
+flex-wrap: wrap;
+align-content: flex-end;
+justify-content: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  .topnav {
+   visibility: hidden;
+  }
+}
+
+/* hamburger */
+.hamburgerNav
+{
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
+  
+  color: #049d63;
+  font-family: "Avenir Next", "Avenir", sans-serif;
+  position: fixed;
+  width: 0px;
+  height: 0px;
+  bottom: 0px;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 999;
+}
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: white;
+  
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+  color: black;
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 100px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; 
+  z-index: 2; 
+  
+  -webkit-touch-callout: none;
+}
+
+
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background:#049d63;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: white;
+}
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu
+{
+  position: fixed;
+  width: 100%;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  
+  background:#049d63;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+@media screen and (max-width: 768px) {
+  .hamburgerNav{
+    visibility: visible;
+  }
+}
+@media screen and (max-width: 768px) {
+  .volunteerbtn
+  {
+   visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav
+  {
+   visibility: hidden;
+  }
+}
+@media screen and (max-width: 768px) {
+  .logo
+  {
+    transform: translateX(275px) translateY(-30px);
+  }
+}
