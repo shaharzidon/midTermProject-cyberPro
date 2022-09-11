@@ -29,8 +29,25 @@ function MainNav() {
         </Container>
       </Navbar>    <div className='volunteerbtn'><Button className='volunteerbtn' >הירשמו להתנדבות <MdOutlineAppRegistration/></Button>
           <Button className='volunteerbtn' >תרמו לנו <FaHeart/></Button></div>
-       
-       
+
+   {/* hamburger */}
+  <nav role="navigation" class="hamburgerNav">
+    <div id="menuToggle">
+     
+      <input type="checkbox" />
+      <span></span>
+      <span></span>
+      <span></span>
+    
+      <ul id="menu">
+        <a href="#home"><li>עלינו</li></a>
+        <a href="#about"><li>שאלות ותשובות</li></a>
+        <a href="#services"><li>צרו קשר</li></a>
+        <a href="#services"><li>הירשמו להתנדבות <MdOutlineAppRegistration/></li></a>
+        <a href="#services"><li>תרמו לנו <FaHeart/></li></a>
+      </ul>
+    </div>
+  </nav>
           </div>
  
      
