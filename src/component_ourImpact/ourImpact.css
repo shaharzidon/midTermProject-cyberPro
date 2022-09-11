@@ -92,3 +92,35 @@ h1.logo1text2{
 .icon2text3{
   font-size: x-large;
 }
+
+@media screen and (max-width: 768px) {
+  .our-impact
+  {
+   height: 100vh;
+   width: 100vw;
+
+  }
+}
+@media screen and (max-width: 768px) {
+  .head
+  {
+    font-size: 5vh!important;
+
+  }
+}
+@media screen and (max-width: 768px) {
+  .icon1img
+  {
+    height: 33vh;
+    width: 33vw;
+
+  }
+}
+@media screen and (max-width: 768px) {
+  .icon2img
+  {
+    height: 33vh;
+    width: 33vw;
+
+  }
+}
