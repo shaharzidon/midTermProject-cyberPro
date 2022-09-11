@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from "react-bootstrap";
 import "./Contact.css"
 import Form from 'react-bootstrap/Form';
-
+import img from './contactimg.jpeg'
 
 function Contact() {
    
@@ -10,9 +10,12 @@ function Contact() {
     
   
     <div className="contribute-contact">
+      <div className="container">
+        <p>usdhcksdbcj</p>
+      </div>
     <div className='left-contant-container'>
         <div className='img-contact'>
-            <img src="" alt="" width="100" height="100"/>
+            <img className='img' src={img} alt="" width="550" height="480"/>
         </div>
         <div className='contribute-contact-email'>
             <h2 dir='rtl'> צרו איתנו קשר בכתובת המייל: </h2>

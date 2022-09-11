@@ -10,6 +10,10 @@
 
 }
 
+.contribute-contact .container {
+    color: #049d63;
+}
+
 .side-contact{
 position: relative;
     width: 35vw;
@@ -54,6 +58,7 @@ position: relative;
 
     .left-contant-container{
         background-color: #2EB5D0;
+        opacity: 90%;
         width: 45vw;
         height: 75vh;
         margin-top: 10vh;
@@ -69,4 +74,13 @@ position: relative;
 
     .contribute-contact-email{
         color: white;
+    }
+
+    .img{
+        margin-top: 4%;
+        margin-bottom: 0%;
+    
+    }
+    .img-contact{    margin-bottom: -1%;
+
     }

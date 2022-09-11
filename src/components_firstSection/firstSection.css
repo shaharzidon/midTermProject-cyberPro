@@ -1,7 +1,7 @@
 
 .first-section{
     background: url(boatimg.jpeg);
-   
+   position: fixed;
     background-repeat: no-repeat;
     width: 100vw;
     /* filter:brightness(0.75); */
@@ -45,9 +45,14 @@ position:unset;
     position: absolute;
     /* margin-right: 0%; */
     margin-left: 10%;
-    margin-top:-45%;
+    margin-top: -42%;
     font-size: 8vh;
 text-shadow: -4px 0px 20px black;
+
+
+
+margin-left: 17%;
+
  
    
 }

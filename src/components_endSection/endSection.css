@@ -7,11 +7,14 @@
 ;
 }
 
-
+.faq{
+  background-color: none;
+}
 table {
     width: 100%;
     border-spacing: 50%;
-    margin-bottom: 0%;
+
+    margin-bottom: -17vh;
   }
   
   th {

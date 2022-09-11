@@ -13,7 +13,7 @@ import BookStep2 from './bookComponent/book-step2';
 import BookStep3 from './bookComponent/book-step3';
 import Example from './bookComponent/book-step3';
 import BookStep4 from './bookComponent/book-step4';
-import Contribute from './ContributeComponent/Contribute';
+// import Contribute from './ContributeComponent/Contribute';
 import Contact from './Contact/Contact';
 import MainNav from './navbarComponents/Topnavbar';
 
@@ -25,15 +25,16 @@ function App() {
       <MainNav></MainNav>
       <FirstSection></FirstSection>
       <OurImpact></OurImpact>
+      <FlipCards></FlipCards>
       <JoinUs></JoinUs>
       <Mapsection></Mapsection>
       <EndSection></EndSection>
       {/* about us */}
       <OurStory></OurStory>
       <Faq></Faq>
-      <FlipCards></FlipCards>
+      
       <Contact></Contact>
-      <Contribute></Contribute>
+      {/* <Contribute></Contribute> */}
       <BookStep1></BookStep1>
     </div>
   );

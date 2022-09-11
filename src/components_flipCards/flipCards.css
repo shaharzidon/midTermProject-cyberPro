@@ -1,17 +1,23 @@
 .flipCards {
-  background-color: aquamarine;
+  background-color: #d6cbb6;;
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
 }
 .flipCards-bottomSection {
   display: inline-flex;
-  margin-top: 30px;
+  margin-top: 10px;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: stretch;
 }
 .flip-card {
   background-color: transparent;
   width: 400px;
   height: 250px;
   perspective: 1000px;
+  
 }
 
 .flip-card-inner {
@@ -43,7 +49,7 @@
 }
 
 .flip-card-back {
-  background-color: #b3b7ee;
+  background-color: #175a40;
   color: white;
   transform: rotateY(180deg);
 }

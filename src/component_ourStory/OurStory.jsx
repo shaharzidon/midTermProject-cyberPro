@@ -1,12 +1,16 @@
 import React from 'react';
 import { FaHeart } from 'react-icons/fa';
 import './ourStory.css'
+import Button from 'react-bootstrap/Button';
+import teamimg from './teamimg.jpeg'
 function OurStory() {
     return (
         <div className='OurStory'>
             <div className='section1'>
+            
+                
                 <div className='section1-title'>
-                    <h1>עלינו</h1>
+                <h1> קצת עלינו </h1>
                 </div>
             </div>
             <div className='section2'>
@@ -49,18 +53,22 @@ function OurStory() {
                     </div>
                 </div>
                 <div className='section2-rightSection'>
+                <div className='section2-rightSection-buttons'>
+                    <Button className='ourstorybtn1' >צרו קשר </Button>
+                    <Button className='ourstorybtn2' >השותפים שלנו</Button>
+                    <Button className='ourstorybtn3' >ביצוע תרומה  </Button>
+                        {/* <button className='contact' dir="rtl">צרו קשר</button>
+                        <button className='partners' dir="rtl">השותפים שלנו</button>
+                        <button className='contribution' dir="rtl"> ביצוע תרומה <FaHeart></FaHeart></button> */}
+                    </div>
                     <div className='section2-rightSection-iframe'>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/xDVJkwq0Uyw"
+                        <iframe width="320" height="290" src="https://www.youtube.com/embed/xDVJkwq0Uyw"
                             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
                       clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen>
                         </iframe>
                     </div>
-                    <div className='section2-rightSection-buttons'>
-                        <button className='contact' dir="rtl">צרו קשר</button>
-                        <button className='partners' dir="rtl">השותפים שלנו</button>
-                        <button className='contribution' dir="rtl"> ביצוע תרומה <FaHeart></FaHeart></button>
-                    </div>
+                    
                     <div className='section2-rightSection-content'>
                         <h2 dir="rtl">יחד אנו חותרים בשביל נקיון המים בישראל!</h2>
                     </div>
@@ -90,6 +98,9 @@ function OurStory() {
                      לעשות משהו מעבר לסביבה המימית. זה הרגע שבו הבנו שאנחנו יכולים לעשות
                      שינוי בישראל כאשר עובדים יחד עם קהילות מקומיות ברחבי ערים ומועצות אחרות.
                     </p>
+                </div>
+                <div>
+                    <img src={teamimg} height={450} width={600} />
                 </div>
             </div>
             <div className='section4'>

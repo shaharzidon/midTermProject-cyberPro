@@ -3,19 +3,27 @@
     margin: 0px
 }
 
+
+.upperSection{
+    background-color: #fbf0db;
+    margin: 0;
+}
 .bottomSection{
-    background-color: cornflowerblue;
-    height: 80vh;
+    background-color: #fbf0db;
+    height: 90vh;
 }
 
 .bottomSection-content{
-    background-color: blanchedalmond;
+    filter: drop-shadow(2px 4px 6px black);
+    color: white;
+    background-color: #175a40;
     display: flex;
     flex-direction: column-reverse;
     align-items: flex-end;
-    width: 60vw;
-    height: 59vh;
+    width: 68vw;
+    height: 68vh;
     transform: translateY(113px) translatex(370px);
+    margin-left: -10%;
     text-align: right;
 }
 

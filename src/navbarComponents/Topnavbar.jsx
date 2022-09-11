@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './components.css';
 import Button from 'react-bootstrap/Button';
-import logo from './newlogo.png';
+import logo from './finallogo.png';
 
 import {FaHeart} from 'react-icons/fa';
 import {MdOutlineAppRegistration} from 'react-icons/md';
