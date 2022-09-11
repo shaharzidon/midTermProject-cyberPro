@@ -3,13 +3,16 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .our-impact {
-  background-color: wheat;
+  background-color: #ffffff;
+  
   height: 100vw;
 }
 .our-impact h1 {
+  font-weight: bold;
   position: absolute;
-  color: #175a40;
+  color:#175a3f;
   width: 100vw;
+ 
 }
 .upper-section {
   display: flex;
@@ -23,15 +26,75 @@
   top: 5vh;
   left: 50vw;
 }
-.bottom-section h2 {
-  margin-top: 200px;
-  color: #175a40;
-  top: 5vh;
-  left: 50vw;
-  justify-content: left;
+.bottom-section{
+
+  text-shadow: 0 0 black;
+  color: #2fb5d0;
+  font-size: x-large;
+  line-height: 2;
+  line-break: auto;
+  word-break: break-word;
+  margin-top: 8%;
+  margin-right: 15%;
+  margin-left: 15%;
 }
 
+<<<<<<< HEAD
 .bottom-section{
   text-align: right;
   margin: 30px
+=======
+.head{
+  margin-top: 3%;
+  text-align: center;
+font-size: 60px!important;
+}
+.icon1img{
+  margin-top: -10%;
+
+}
+
+.logo1text1{   
+  margin-left: -13%;
+  margin-bottom: 17%;
+  margin-top: 16%;
+  font-size: x-large;
+
+}
+
+h1.logo1text2{
+  margin-left: 7%;
+  margin-top: -4%;
+  width: fit-content;
+  
+}
+
+.logo1text3{ font-size: x-large;
+  margin-right: 10%;
+
+}
+
+.left-section-text{
+  width: fit-content;
+}
+
+.icon2img{
+  margin-left: 20%;
+}
+.icon2text1{
+  margin-bottom: 15%;
+  font-size: x-large;
+  margin-left: -5%;
+}
+
+
+.icon2text2{
+ 
+  margin-left: -35%;
+  margin-top: -4%;
+
+}
+.icon2text3{
+  font-size: x-large;
+>>>>>>> f9b985c (new)
 }

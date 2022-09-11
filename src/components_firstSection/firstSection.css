@@ -1,26 +1,17 @@
-/* .first-section{
-    background-color: rosybrown;
-    width:100vw 
-    height:100vh ;
-}    */
 
-.main-title h1{
-    color: black;
-    
-}
 .first-section{
-    background-image:url(cleaining.jpeg);
+    background: url(boatimg.jpeg);
+   
+    background-repeat: no-repeat;
     width: 100vw;
-    opacity: 80%;
+    /* filter:brightness(0.75); */
     height: 100vh;
-    padding-top: 50px;
-    display: block;
+background-size: cover;
+position:unset;
+
+  
     
 
-    
-    
-    
-    
 }
 
 .div2{
@@ -28,5 +19,102 @@
     width: 100vw;
 }
 .contant-container{
-    margin-top: 15vh;
+
+    font-family: system-ui;
+    color: black;
+       opacity: 100%;
+         margin-top:0%;
+      
+}
+
+
+.contant-containe{
+    font-weight: bold;
+    margin: 0;
+
+    
+   
+}
+
+
+
+.text{
+    
+    font-weight: bold;
+    margin-right: 63%;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    /* margin-right: 0%; */
+    margin-left: 1%;
+    margin-top: -48%;
+    background-color: #12a182;
+}
+
+.buttons-ctrl{
+    background-color: darkgreen;
+    width: fit-content;
+    margin-bottom: 90%;
+}
+.btndiv{
+    position: absolute;
+    margin-top: -20%;
+    height: 100vh;
+    margin-left: 70%;
+
+}
+.homebtn{
+    background-color: #2EB5D0;
+    border-color: black;
+    width: 20vw;
+    border-width: 1.5px;
+    margin-left: 3%;
+    margin: 3px;
+    place-items: end;
+    
+  
+}
+.volunteerbtn:hover{background-color:#175A40 ;
+    border-color: white;
+    
+}
+
+.homebtn1{background-color: #444344  !important;
+color: white;
+margin:  3%!important;
+border: none;
+width: 20vw;
+border-radius: 3px;
+cursor: pointer;
+font-size: smaller;font-weight: bold;
+margin-top: 20vh!important;
+margin-left: 5vw!important;
+transform: translateY(-10vh); }
+
+
+.homebtn2{   
+    background-color: Transparent!important;
+    border: 6px!important;
+    border-color: black !important;
+    cursor:pointer!important;
+    overflow: hidden!important;    
+    
+    /* background-color: #444344  !important; */
+color: rgb(4, 4, 4)!important;
+margin:  3%!important;
+border: none;
+width: 20vw;
+border-radius: 3px;
+cursor: pointer;
+font-size:xx-large;font-weight: bold!important;
+margin-top: 0vh!important;
+margin-left: 5vw!important;
+transform: translateY(-10vh); }
+
+.homebtn1:hover{background-color:
+    #4267B2!important;
+
+}
+.homebtn2:hover{background-color:
+    #12a182!important;
+
 }
