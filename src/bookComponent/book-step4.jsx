@@ -48,7 +48,7 @@ function MyVerticallyCenteredModal(props) {
         centered>
         <Modal.Header closeButton >
           <Modal.Title id= "contained-modal-title-vcenter" >
-           נקבעה קיאק בהצלחה
+           תואם קיאק בהצלחה
           </Modal.Title>
         </Modal.Header>
         <Modal.Body >
@@ -217,7 +217,7 @@ function BookStep4() {
       </div>
     </div>
   </form>
-  <div>   <Button variant="success" className='next' onClick={() => setModalShow(true)}>המשך33</Button>
+  <div>   <Button variant="success" className='next' onClick={() => setModalShow(true)}>המשך</Button>
             <MyVerticallyCenteredModal fname={fname} show={modalShow} onHide={() => setModalShow(false)} />
   </div>
 </div>

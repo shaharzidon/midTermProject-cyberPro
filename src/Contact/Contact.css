@@ -29,6 +29,7 @@
 .special.submit-contact-dark{
   width: fit-content!important;
   height: fit-content !important;
+  transform: translate(2vw) !important;
 
 }
 
