@@ -9,8 +9,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     scroll-behavior: smooth;
-    overflow-x: hidden;
+   
 }
+.row{transform: translateX(10vw);}
 
 .step4ContanetContainer{
     margin-top: 10vh;
@@ -43,7 +44,7 @@ font-size: small;
 
 
 
-input[type=text], select, textarea {
+input[type=text],input[type=email],input[type=number],select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -118,7 +119,7 @@ input[type=text], select, textarea {
 
   .btn-close{
     position: absolute;
-    right: 3vw;
+    right: 5vw;
   }
 
   select{
@@ -136,7 +137,11 @@ input[type=text], select, textarea {
   }
   
 .next{
-    margin-top: 5vh;
+  transform: translateY(5vh) !important;
+ margin-top: 10vh;
+ margin-left: 20vw !important;
+ 
+   
     
 }
 .member-label{   
@@ -148,11 +153,39 @@ input[type=text], select, textarea {
     transform: translateX(-4.5vw);
 }
 
+.fname-step4{
+  display: block !important;
+}
+
+.row{
+  flex-direction: row !important;
+}
+
+
 
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .col-25, .col-75, input[type=submit] {
       width: 100%;
       margin-top: 0;
+      
     }
+
+    .input-step4{
+      width: 35vw !important;
+    }
+
+    .col-75{
+      transform: translate(-5vw);
+    }
+    .fname-step4{
+      transform: translateX(3vw);
+    }
+
+    
   }
+
+  
+
+
+  

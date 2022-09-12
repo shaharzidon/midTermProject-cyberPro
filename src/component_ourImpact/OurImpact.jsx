@@ -2,8 +2,10 @@ import React from 'react';
 import './ourImpact.css'
 import icon1 from '../component_ourImpact/icon1.png'
 import icon2 from '../component_ourImpact/icon2.png'
+import AnimetedPagesUp from '../AnimatedPagesUP';
 function OurImpact() {
     return (
+        <AnimetedPagesUp>
         <div className='our-impact'>
             <h1 className='head'>ההשפעה שלנו</h1>
             <div className='upper-section'>
@@ -37,6 +39,7 @@ function OurImpact() {
                 </p>
             </div>
         </div>
+        </AnimetedPagesUp>
     );
 }
 export default OurImpact;
