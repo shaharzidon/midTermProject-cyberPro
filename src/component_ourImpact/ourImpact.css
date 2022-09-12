@@ -3,16 +3,15 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .our-impact {
-  background-color:#fbf0db;
-  
+  background-color: #fbf0db;
+
   height: 100vw;
 }
 .our-impact h1 {
   font-weight: bold;
   position: absolute;
-  color:#175a3f;
+  color: #175a3f;
   width: 100vw;
- 
 }
 .upper-section {
   display: flex;
@@ -26,8 +25,7 @@
   top: 5vh;
   left: 50vw;
 }
-.bottom-section{
-
+.bottom-section {
   text-shadow: 0 0 black;
   color: #2fb5d0;
   font-size: x-large;
@@ -39,88 +37,102 @@
   margin-left: 15%;
 }
 
-.head{
+.head {
   margin-top: 3%;
   text-align: center;
-font-size: 60px!important;
+  font-size: 60px !important;
 }
-.icon1img{
-  margin-top: -10%;
-
+.icon1img {
 }
 
-.logo1text1{   
+.logo1text1 {
   margin-left: -13%;
   margin-bottom: 17%;
   margin-top: 16%;
   font-size: x-large;
-
 }
 
-h1.logo1text2{
-  margin-left: 7%;
-  margin-top: -4%;
+h1.logo1text2 {
+  margin-left: 4%;
+  margin-top: -3%;
   width: fit-content;
-  
 }
 
-.logo1text3{ font-size: x-large;
+@media screen and (max-width: 768px) {
+  h1.logo1text2 {
+    margin-left: 8%;
+    margin-top: -5%;
+    width: fit-content;
+  }
+}
+
+.logo1text3 {
+  font-size: x-large;
   margin-right: 10%;
-
 }
 
-.left-section-text{
+.left-section-text {
   width: fit-content;
 }
 
-.icon2img{
+.icon2img {
   margin-left: 20%;
 }
-.icon2text1{
+.icon2text1 {
   margin-bottom: 15%;
   font-size: x-large;
   margin-left: -5%;
 }
 
-
-.icon2text2{
- 
-  margin-left: -35%;
+.icon2text2 {
+  margin-left: -36%;
   margin-top: -4%;
-
+  width: fit-content;
 }
-.icon2text3{
+
+@media screen and (max-width: 768px) {
+  .icon2text2 {
+    margin-left: -24%;
+    margin-top: -7%;
+    width: fit-content;
+  }
+}
+
+.icon2text3 {
   font-size: x-large;
 }
 
 @media screen and (max-width: 768px) {
-  .our-impact
-  {
-   height: 100vh;
-   width: 100vw;
-
+  .our-impact {
+    height: 200vh;
+    width: 100vw;
   }
 }
 @media screen and (max-width: 768px) {
-  .head
-  {
-    font-size: 5vh!important;
-
+  .head {
+    font-size: 5vh !important;
   }
 }
 @media screen and (max-width: 768px) {
-  .icon1img
-  {
+  .icon1img {
     height: 33vh;
     width: 33vw;
-
   }
 }
 @media screen and (max-width: 768px) {
-  .icon2img
-  {
+  .icon2img {
     height: 33vh;
     width: 33vw;
+  }
+}
 
+@media screen and (max-width: 768px) {
+  .right-section-text {
+    margin: 3vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  .left-section-text {
+    margin: 3vh;
   }
 }

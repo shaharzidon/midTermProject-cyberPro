@@ -15,10 +15,10 @@ function JoinUs() {
                 <h2 dir="rtl">קחו חלק בקבוצות הפייסבוק שלנו:</h2>
             </div>
             <div className='btn-ctrl'>
-            <Button className='btn1' variant="outline-*">תל אביב</Button>
-            <Button className='btn2' variant="outline-*">כינרת</Button>
-            <Button className='btn3' variant="outline-*">חיפה</Button>
-            <Button className='btn4' variant="outline-*">אילת</Button>
+            <Button className='btn1' variant="outline-* btn-lg">תל אביב</Button>
+            <Button className='btn2' variant="outline-* btn-lg">כינרת</Button>
+            <Button className='btn3' variant="outline-* btn-lg">חיפה</Button>
+            <Button className='btn4' variant="outline-* btn-lg">אילת</Button>
             </div>
             {/*להתאים כפתורים למקומות בהם מציעים את השירות שלנו */}
                 

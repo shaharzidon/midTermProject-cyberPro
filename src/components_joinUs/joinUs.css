@@ -7,7 +7,7 @@
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
-    background-position: 10% 25%;
+    background-position: 10% 25%;       
 }
 .secondary-title{
     text-align: center;
@@ -17,8 +17,9 @@
    font-size: 60px;
     text-shadow: -2px 0px 20px black;
     color: aliceblue;
-    margin-top: 8%;
+    margin-top: 43vh;
     margin-bottom: -6%;
+
 }
 
 
@@ -36,8 +37,7 @@
 .btn-ctrl{
     display: flex;
     justify-content: center;
-    margin-left: 10vw;
-    margin-top: 33vh;
+    margin-top: 32vh;
     
 }
 .btn-ctrl :hover{
@@ -49,21 +49,35 @@
 
 .btn1{
     background-color: #175a3f!important;
+    color: white !important;
 }
 .btn2{
 
     background-color: #175a3f!important;
+    color: white !important;
 }
 .btn3{
    
     background-color: #175a3f!important;
+    color: white !important;
 }
 .btn4{
 
     background-color: #175a3f!important;
+    color: white !important;
 }
 .images{
 
     display: flex;
     justify-content: space-around;
 }
+
+@media screen and (max-width: 768px) {
+    .joinUs
+    {
+     height: 130vh;
+     width: 100vw;
+    background-color: #fbf0db;
+    background-image: none;
+    }
+  }

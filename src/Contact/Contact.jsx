@@ -7,12 +7,7 @@ import img from './contactimg.jpeg'
 function Contact() {
    
   return (
-    
-  
     <div className="contribute-contact">
-      <div className="container">
-        <p>usdhcksdbcj</p>
-      </div>
     <div className='left-contant-container'>
         <div className='img-contact'>
             <img className='img' src={img} alt="" width="550" height="480"/>

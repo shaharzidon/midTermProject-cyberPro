@@ -1,8 +1,28 @@
-.mapSection{
-    background-color: #fbf0db;
+.mapSection {
+  background-color: #fbf0db;
 }
 
-.mapSection .map-frame{
-    background-color:#fbf0db;
-    margin-bottom: 0px;
+.mapSection .map-frame {
+  background-color: #fbf0db;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .mapSection {
+    background-color: #d6cbb6;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .map-frame {
+    background-color: #d6cbb6;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  iframe {
+    height: 450px;
+    width: 450px;
+    background-color: #d6cbb6;
+  }
 }

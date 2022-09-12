@@ -13,7 +13,7 @@ function MainNav() {
   return (
     <>
      <div className="mainnav">
-      <Navbar > <img className='logo' src={logo} width={160} height={100}></img>
+      <Navbar > <img className='logo' src={logo} width={120} height={100}></img>
         <Container>
           <Nav className="nav">
             <span>
