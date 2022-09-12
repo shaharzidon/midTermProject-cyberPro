@@ -53,11 +53,11 @@ function MainNav() {
       <span></span>
     
       <ul id="menu">
-        <a href="#home"><li>עלינו</li></a>
-        <a href="#about"><li>שאלות ותשובות</li></a>
-        <a href="#services"><li>צרו קשר</li></a>
-        <a href="#services"><li>הירשמו להתנדבות <MdOutlineAppRegistration/></li></a>
-        <a href="#services"><li>תרמו לנו <FaHeart/></li></a>
+        <a href="#home" onClick={handleOnClickOurStory}><li>עלינו</li></a>
+        <a href="#about" onClick={handleOnClickFaq}><li>שאלות ותשובות</li></a>
+        <a href="#services" onClick={handleOnClickContact}><li>צרו קשר</li></a>
+        <a href="#services" onClick={()=>{Object.assign(animationSlice, {animationDiraction: "up"});handleOnClickStep1()}}><li>הירשמו להתנדבות <MdOutlineAppRegistration/></li></a>
+        <a href="#services"  onClick={handleOnClickContribute}><li>תרמו לנו <FaHeart/></li></a>
       </ul>
     </div>
   </nav>

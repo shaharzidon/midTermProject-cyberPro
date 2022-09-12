@@ -91,7 +91,7 @@ export default function BookStep3() {
      
 <div className="step3ContanetContainer">
         {/* back to main page (will add later on) */}
-     <div>   <Button onClick={()=>{handleOnClickHome();setAnimationDiractionL()}} variant="dark" className='back' >חזרה</Button></div>
+      {/* <Button onClick={()=>{handleOnClickHome();setAnimationDiractionL()}} variant="dark" className='back' >חזרה</Button> */}
       
     
 
@@ -121,7 +121,6 @@ export default function BookStep3() {
         </div>
         <div>
       <span className='links'>
-        <Card.Link href="#">  <Link to="Mapsection" style={{textDecoration: 'none'} } onClick =  {()=>{(handleMap())}}>איך להגיע </Link></Card.Link>
         </span>
         <span className='links'>
         <Card.Link href="#" onClick =  {()=>{(handleFaq())}}>שאלות נפוצות</Card.Link>
@@ -141,9 +140,7 @@ export default function BookStep3() {
          return (
     <AnimetedPagesRTL>
 <div className="step3ContanetContainer">
-        {/* back to main page (will add later on) */}
-     <div>   <Button onClick={()=>{handleOnClickHome();setAnimationDiractionL()}} variant="dark" className='back' >חזרה</Button></div>
-      
+        {/* back to main page (will add later on) */}      
     
 
       <h2 className='stepHead'> שלב 3 : שעות זמינות</h2>
@@ -172,7 +169,6 @@ export default function BookStep3() {
         </div>
         <div>
       <span className='links'>
-        <Card.Link href="#">  <Link to="Mapsection" style={{textDecoration: 'none'} } onClick =  {()=>{(handleMap())}}>איך להגיע </Link></Card.Link>
         </span>
         <span className='links'>
         <Card.Link href="#" onClick =  {()=>{(handleFaq())}}>שאלות נפוצות</Card.Link>

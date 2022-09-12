@@ -114,6 +114,7 @@ h1.logo1text2 {
   .icon2text2 {
     margin-left: -24%;
     margin-top: -7%;
+    margin-left: 34%;
     width: fit-content;
   }
 }
@@ -161,5 +162,20 @@ h1.logo1text2 {
   .section1-title {
     transform: translate(86vw, 1vh);
     width: 1vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .bottom-section {
+      text-shadow: 0 0 black;
+      color: #2fb5d0;
+      font-size: x-large;
+      line-height: 2;
+      line-break: auto;
+      word-break: break-word;
+      margin-top: 8%;
+      margin-right: 15%;
+      margin-left: 15%;
+      margin-top: 50vh;
   }
 }

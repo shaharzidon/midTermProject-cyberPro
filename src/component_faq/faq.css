@@ -1,11 +1,16 @@
 .faq {
-  background-color: green;
+  background-color: #fbf0db;
   margin: 0px;
 }
 
 .upperSection {
   background-color: #fbf0db;
   margin: 0;
+}
+.upperSection.btn-primary {
+  background-color: #175a40 !important;
+  height: fit-content !important;
+  width: fit-content !important;
 }
 .bottomSection {
   background-color: #fbf0db;
@@ -24,6 +29,12 @@
   transform: translateY(113px) translatex(370px);
   margin-left: -10%;
   text-align: right;
+}
+@media screen and (max-width: 768px) {
+  .bottomSection-content {
+    height: 97vh !important;
+
+  }
 }
 
 .bottomSection-content h5 {

@@ -46,7 +46,7 @@ margin-left: 5vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(riverStep1.jpg);
+    background-color: #fbf0db;
     background-repeat: no-repeat;
     background-size: cover;
     scroll-behavior: smooth;

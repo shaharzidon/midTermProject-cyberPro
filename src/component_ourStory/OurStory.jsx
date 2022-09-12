@@ -21,7 +21,7 @@ function OurStory() {
                 <h1> קצת עלינו </h1>
                 </div>
             </div>
-            <Button onClick={handleOnClickHome}></Button>
+            <Button className='backupbtn' onClick={handleOnClickHome}>חזרה </Button>
             <div className='section2'>
                 <div className='section2-leftSection'>
                     <div className='section2-leftSection-content'>
