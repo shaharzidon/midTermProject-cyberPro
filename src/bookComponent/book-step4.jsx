@@ -3,24 +3,46 @@ import logo from './riverStep1.jpg';
 import { Button } from "react-bootstrap";
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Form from 'react-bootstrap/Form';
-import "./book-step4.css"
+
 import Modal from 'react-bootstrap/Modal';
-import { useState } from 'react';
+import { useCallback, useState } from 'react';
 import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import { value} from '../citySlice'
+import {dateValue, pickDate,dateSlice} from '../dateSlice'
+import { useSelector } from 'react-redux';
+import {hourSlice,hourValue} from '../hourSlice'
+import { current } from '@reduxjs/toolkit';
+import AnimetedPages from '../AnimatedPagesRTL';
+import AnimetedPagesLTR from '../AnimatedPagesLTR';
+import {animationSlice} from '../animationSlice';
+import AnimetedPagesUp from '../AnimatedPagesUP';
+import "./book-step4.css"
 
-
-
-
+let name= "שם"
 
 
 //moda-bootstrapl
 function MyVerticallyCenteredModal(props) {
+    const navigate = useNavigate();
+    const handleOnClickHome= useCallback(() => navigate('/Home', {replace: true}), [navigate]);
 
+    // 
+    // 
+   
+    const date = useSelector((state) =>
+    state.date.dateValue)
+    const city = useSelector((state) =>
+    state.city.value)
 
-    return (
+    console.log(city ,hourSlice.Step3Hour, dateSlice.Step2Date)
+
+    return ( 
 
       <Modal class='modal-step4'
         {...props}
+        backdrop="static"
+        keyboard={false}
         size="lg"
         aria-labelledby="contained-modal-title-vcenter"
         centered>
@@ -31,11 +53,13 @@ function MyVerticallyCenteredModal(props) {
         </Modal.Header>
         <Modal.Body >
           <p>
-            היי ... נקבעה לך קיאק ב... בשעה... 
+        {dateSlice.Step2Date} היי {props.fname} -  קבענו לך קיאק  בשעה {hourSlice.Step3Hour}   - {city}   
           </p>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={props.onHide}> חזרה למסך הבית</Button>
+            
+          <Button  dir='rtl' onClick={handleOnClickHome}>  אישור וסיום </Button>{/* props.onHide===> handleOnClickHome changed*/}
+          <Button  dir='rtl' onClick={props.onHide}>  אני רוצה לשנות את הפרטים</Button>
         </Modal.Footer>
       </Modal>
     );
@@ -43,16 +67,30 @@ function MyVerticallyCenteredModal(props) {
 
 
 function BookStep4() {
+  const [fname, setfname] = useState("");
+  const [lname, setlname] = useState("");
     const [modalShow, setModalShow] = React.useState(false);
 
+    const navigate = useNavigate();
+    const handleOnClickBack= useCallback(() => navigate('/BookStep3', {replace: true}), [navigate]);
+    function firstName(e) {
+      setfname(e.target.value.replace(/[^א-ת]/,"" ));
+      
+  }
+
+  function lastName(e) {
+    setlname(e.target.value.replace(/[^א-ת]/,"" ));
+    
+}
 
 
 
     return (
+      <AnimetedPagesLTR>
   <div className="step4PageContainer">
       <div className='step4ContanetContainer'>
           {/* back to main page (will add later on) */}
-       <div>   <Button variant="dark" className='back' >חזרה</Button></div>
+       <div>   <Button onClick={()=>{Object.assign(animationSlice, {animationDiraction: "left"});handleOnClickBack()}} variant="dark" className='back' >חזרה</Button></div>
         
          <hr className='hr'></hr>
   
@@ -116,18 +154,18 @@ function BookStep4() {
   <form action="">
     <div class="row">
       <div class="col-25">
-        <label for="fname">שם פרטי</label>
+        <label  className='fname-step4 input-step4' for="fname">שם פרטי</label>
       </div>
       <div class="col-75">
-        <input type="text" id="fname" name="firstname" placeholder="..שם פרטי"/>
+        <input className='input-step4' type="text" id="fname" name="firstname" placeholder="..שם פרטי"value={fname} onChange={(e) => firstName(e)}/>
       </div>
     </div>
     <div class="row">
       <div class="col-25">
-        <label for="lname">שם משפחה</label>
+        <label className='input-step4' for="lname">שם משפחה</label>
       </div>
       <div class="col-75">
-        <input type="text" id="lname" name="lastname" placeholder="..שם משפחה"/>
+        <input className='input-step4' type="text" id="lname" name="lastname" placeholder="..שם משפחה" value={lname} onChange={(e) => lastName(e)}/>
       </div>
     </div>
 
@@ -136,30 +174,30 @@ function BookStep4() {
         <label for="country">עיר מגורים</label>
       </div>
       <div class="col-75">
-        <select id="country" name="country">
-        <option value="" disabled selected hidden>...מקום מגורים</option>
+        <input className='input-step4' id="country" type="text" name="country" placeholder='...עיר מגורים'>
+        {/* <option value="" disabled inputed hidden>...מקום מגורים</option>
           <option value="australia">תל אביב</option>
           <option value="canada">אילת</option>
           <option value="usa">חדרה</option>
-          <option value="usa">טבריה</option>
-        </select>
+          <option value="usa">טבריה</option> */}
+        </input>
       </div>
     </div>
 
     <div class="row">
       <div class="col-25">
-        <label for="lname">כתובת מייל</label>
+        <label for="email">כתובת מייל</label>
       </div>
       <div class="col-75">
-        <input   type="text" id="lname" name="lastname" placeholder="..כתובת מייל"/>
+        <input  className='input-step4'  type="email" id="email" name="email" placeholder="..כתובת מייל"/>
       </div>
     </div>
     <div class="row">
       <div class="col-25">
-        <label for="lname">מספר טלפון</label>
+        <label className='input-step4' for="email">מספר טלפון</label>
       </div>
       <div class="col-75">
-        <input   type="text" id="lname" name="lastname" placeholder="..מספר טלפון"/>
+        <input  className='input-step4'  type="number" id="phone" name="phone" max={10} placeholder="..מספר טלפון"/>
       </div>
 </div>
 
@@ -167,35 +205,31 @@ function BookStep4() {
 
 <div class="row">
       <div class="col-25">
-        <label for="country"> האם יצא לך להשתמש כבר בקיאק</label>
+        <label for="useage"> האם יצא לך להשתמש כבר בקיאק</label>
       </div>
       <div class="col-75">
-        <select id="country" name="country">
-        <option value="" disabled selected hidden>...האם יצא לך להשתמש כבר בקיאק</option>
-          <option value="australia">כן</option>
-          <option value="canada">לא</option>
-          
-        </select>
+        <input  type="text" className='input-step4' id="usage" name="usage" placeholder='כן\לא'>
+        {/* <option value="" disabled inputed hidden >...האם יצא לך להשתמש כבר בקיאק</option> */}
+          {/* <option value="yes">כן</option>
+          <option value="no">לא</option>
+           */}
+        </input>
       </div>
     </div>
   </form>
-  <div>   <Button variant="success" className='next' onClick={() => setModalShow(true)}>המשך</Button>
-            <MyVerticallyCenteredModal show={modalShow} onHide={() => setModalShow(false)} />
+  <div>   <Button variant="success" className='next' onClick={() => setModalShow(true)}>המשך33</Button>
+            <MyVerticallyCenteredModal fname={fname} show={modalShow} onHide={() => setModalShow(false)} />
   </div>
 </div>
 
 
-
-
-
-
-
-
-
-
       </div>
 
       </div>
+
+
+      
+      </AnimetedPagesLTR>
         
          );
         }

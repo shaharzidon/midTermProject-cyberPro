@@ -8,8 +8,20 @@ import logo from './finallogo.png';
 
 import {FaHeart} from 'react-icons/fa';
 import {MdOutlineAppRegistration} from 'react-icons/md';
+import React, {useCallback} from 'react';
+import {useNavigate} from 'react-router-dom';
+import { Link,Outlet } from "react-router-dom";
+import OurStory from '../component_ourStory/OurStory';
+import {animationSlice} from '../animationSlice';
 
 function MainNav() {
+  const navigate = useNavigate();
+  const handleOnClickContribute = useCallback(() => navigate('/contribute', {replace: true}), [navigate]);
+  const handleOnClickOurStory = useCallback(() => navigate('/OurStory', {replace: true}), [navigate]);
+  const handleOnClickStep1= useCallback(() => navigate('/bookStep1', {replace: true}), [navigate]);
+  const handleOnClickFaq= useCallback(() => navigate('/Faq', {replace: true}), [navigate]);
+  const handleOnClickContact= useCallback(() => navigate('/contact', {replace: true}), [navigate]);
+
   return (
     <>
      <div className="mainnav">
@@ -17,18 +29,19 @@ function MainNav() {
         <Container>
           <Nav className="nav">
             <span>
-            <Nav.Link href="#home">עלינו</Nav.Link>
-            </span> <span>
-            <Nav.Link href="#features">שאלות ותשובות</Nav.Link>
+            <Nav.Link onClick={handleOnClickOurStory} > עלינו </Nav.Link>
             </span>
             <span>
-            <Nav.Link href="#pricing">צרו קשר</Nav.Link>
+            <Nav.Link onClick={handleOnClickContact} > צרו קשר </Nav.Link>
+            </span>
+            <span>
+            <Nav.Link onClick={handleOnClickFaq} > שאלות ותשובות</Nav.Link>
             </span>
           
           </Nav>
         </Container>
-      </Navbar>    <div className='volunteerbtn'><Button className='volunteerbtn' >הירשמו להתנדבות <MdOutlineAppRegistration/></Button>
-          <Button className='volunteerbtn' >תרמו לנו <FaHeart/></Button></div>
+      </Navbar>    <div className='volunteerbtn' ><Button className='volunteerbtn' onClick={()=>{Object.assign(animationSlice, {animationDiraction: "up"});handleOnClickStep1()}} >הירשמו להתנדבות <MdOutlineAppRegistration/></Button>
+          <Button className='volunteerbtn'  onClick={handleOnClickContribute}>תרמו לנו <FaHeart/></Button></div>
 
    {/* hamburger */}
   <nav role="navigation" class="hamburgerNav">

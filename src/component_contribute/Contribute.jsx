@@ -1,12 +1,20 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button } from "react-bootstrap";
+import React, { useCallback } from 'react';
+import { Button } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
+import AnimetedPagesUp from '../AnimatedPagesUP';
 import "./contribute.css"
 import Form from 'react-bootstrap/Form';
 
 
 function Contribute() { 
+    const navigate = useNavigate();
+    const handleOnClickHome= useCallback(() => navigate('/Home', {replace: true}), [navigate]);
+
   return (
+    <AnimetedPagesUp>
     <div class="container">
+         <Button onClick={handleOnClickHome}> חזרה</Button>
         <div class="row">
             <div class="col-12 mt-4">
                 <div class="card p-3">
@@ -121,6 +129,7 @@ function Contribute() {
             </div>
         </div>
     </div>
+    </AnimetedPagesUp>
   );
 }
 

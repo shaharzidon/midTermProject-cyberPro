@@ -1,8 +1,9 @@
 import './mapsection.css'
 import React from 'react';
 function Mapsection() {
+
     return (
-        <div className='mapSection'>
+        <div className='mapSection'>  
             <div className='title'><h1>מיקומים שבהם תמצאו את ״הקיאק״</h1></div>
             <div className='map-frame'>
             <iframe

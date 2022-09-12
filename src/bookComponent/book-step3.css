@@ -1,12 +1,43 @@
 .back{
-    transform: translateX(40vw);
+    margin-right: 5vw !important;
+    margin-top: 10vh !important;
+    width: 15vw !important;
+    height: 10vh !important;
+    position: absolute;
+    transform: translate(3vw,-10vh) !important;
+   
+}
+.line-step3{
+    border-left: 4px solid black;
+    height: 70%;
+    position: absolute;
+    margin-left: -3px;
+    top: 5vh;
+    margin-top: 15vh;
+    left: 50vw;
+}
+.step3-h2{
+    position: absolute;
+    top: 50vh;
+    right: 5vw;
+    font-size: 3vw;
+
+}
+
+.step3-qua{
+    top: 50vh;
+    position: absolute;
+    width: 20vw;
 }
 .card-container{
-
 display: flex !important;
 justify-content: center !important;
 align-items: center;
+width: 40vw;
+margin-left: 5vw;
+
 }
+
 
 .step3PageContainer{
     width: 100vw;
@@ -18,27 +49,24 @@ align-items: center;
     background-image: url(riverStep1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    scroll-behavior: smooth;
+    height: auto;
+    
 }
 
 .step3ContanetContainer{
     width: 100vw;
     height: 100vh;
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-
-.hr2{
-border-color: black;
-width: 95%;
-border-width: 2px;
-opacity: 0.7;
-margin-left: 2vw;
+    height: auto;
 
 }
+
+
+
+
+
+
 .card-header{
     display: flex;
     justify-content: center;
@@ -51,27 +79,52 @@ margin-left: 2vw;
     flex-wrap: wrap;
     justify-content: center;
 }
-.cardImg{
-width: 20vw;
-height: 15vh;
-margin-top: 0;
 
+
+
+
+
+.cardImg{
+width: 15vw;
+height: 10vh;
+margin-top: 0;
+}
+
+.pick-cont{
+    text-align: center;
 
 
 }
-
 .pick-hour{
-margin: 1vw;
-    width: 8vw;
-    height: 5vh;
-    text-align: center;
-    padding-bottom: 6vh;
+
+    margin-top: 10vh !important;
+    margin: 2vw !important;
+    width: 10vw!important;
+    height: 5vh !important; 
+    text-align: center !important;
+    justify-content: center!important;
+    align-items: center!important;
+    padding-bottom: 6vh !important;
+    align-content: center;
+    
+
 }
 .card_hero{
     transform: translateX(-10vw);
+   
 }
+
 .stepHead{
-transform: translateX(28vw);
+margin-left: 20vw;
+font-size: 6vw;
+
+}
+.pick12{
+    margin-right: 25vw;
+    position: absolute;
+}
+
+.pick16{
 
 }
 
@@ -79,9 +132,9 @@ transform: translateX(28vw);
 
     display: flex;
     align-self: center;
-    
-
+   
 }
+
 
 .links
 {
@@ -93,3 +146,130 @@ transform: translateX(28vw);
 #quantity{
     margin: 1.5vw;
 }
+
+
+
+@media screen and (max-width: 750px) {
+    .line-step3
+    {
+        display: none;
+       
+              
+        }
+        .stepHead{
+            margin-top: 25vh;
+        }
+        .step3ContanetContainer{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+           
+            
+        }
+        .hour-div{
+            transform: translateY(10px);
+        }
+
+        .card-container{
+            margin-top: 20vh;
+            width: 50vw;
+            transform: translateY(10vh);
+
+
+        }
+        .pick-hour{
+            font-size: 4vw !important ;
+            margin: 3vw !important;
+            width: 20vw !important;
+            text-align: center !important;
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+
+        }
+        .pick-cont{
+            
+            
+            font-size: 10vw !important;
+        }
+        .stepHead{
+            margin-top: 10vh;
+            font-size: 7vw;
+            transform: translateY(10vh);
+        }
+        .step3-h2{
+            font-size: 5vw;
+            top: 25vh;
+            right: 10vw;
+            transform: translateX(-2vw);
+            
+        }
+        .step3-h2{
+            transform: translate(-2vw,10vh);
+        }
+        .back{
+                
+            transform: translateY(-25vh) !important;
+                    }
+
+    }
+    
+
+
+    @media screen and (max-width: 400px) {
+        .line-step3
+        {
+            display: none;
+           
+                  
+            }
+            .back{
+                
+    transform: translateY(-25vh) !important;
+            }
+            .step3ContanetContainer{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+               
+                
+            }
+    
+            .card-container{
+                margin-top: 20vh;
+                width: 50vw;
+    
+    
+            }
+           .back{
+            width: 15vw !important;
+            padding-left: 10vw !important;
+            padding-right: 10vw !important;
+           }
+            .pick-hour{
+                font-size: 4vw !important ;
+                margin: 3vw !important;
+                width: 20vw !important;
+                display: flex !important;
+                align-items: center !important;
+    
+            }
+            .pick-cont{
+                
+                
+                font-size: 10vw !important;
+            }
+            .stepHead{
+                margin-top: 10vh;
+                font-size: 7vw;
+            }
+            .step3-h2{
+                font-size: 5vw;
+                top: 25vh;
+                right: 10vw;
+                
+            }
+    
+        }
+        
+    

@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 import { FaHeart , FaPhone, FaUserFriends} from 'react-icons/fa';
 import './ourStory.css'
 import Button from 'react-bootstrap/Button';
+import { useNavigate } from 'react-router-dom';
+import AnimetedPagesUp from '../AnimatedPagesUP';
 import teamimg from './teamimg.jpeg'
 function OurStory() {
+    const navigate = useNavigate();
+    const handleOnClickContrebute= useCallback(() => navigate('/Contribute', {replace: true}), [navigate]);
+    const handleOnClickContact= useCallback(() => navigate('/Contact', {replace: true}), [navigate]);
+    const handleOnClickHome= useCallback(() => navigate('/Home', {replace: true}), [navigate]);
+
+
     return (
         <div className='OurStory'>
             <div className='section1'>
@@ -13,6 +21,7 @@ function OurStory() {
                 <h1> קצת עלינו </h1>
                 </div>
             </div>
+            <Button onClick={handleOnClickHome}></Button>
             <div className='section2'>
                 <div className='section2-leftSection'>
                     <div className='section2-leftSection-content'>
@@ -54,9 +63,9 @@ function OurStory() {
                 </div>
                 <div className='section2-rightSection'>
                 <div className='section2-rightSection-buttons'>
-                    <Button className='ourstorybtn1' >צרו קשר </Button>
+                    <Button className='ourstorybtn1'  onClick={handleOnClickContact} >צרו קשר </Button>
                     <Button className='ourstorybtn2' >השותפים שלנו</Button>
-                    <Button className='ourstorybtn3' >ביצוע תרומה  </Button>
+                    <Button className='ourstorybtn3' onClick={handleOnClickContrebute} >ביצוע תרומה </Button>
                         {/* <button className='contact' dir="rtl">צרו קשר</button>
                         <button className='partners' dir="rtl">השותפים שלנו</button>
                         <button className='contribution' dir="rtl"> ביצוע תרומה <FaHeart></FaHeart></button> */}

@@ -1,12 +1,14 @@
-import React from 'react';
+
 import {FaFacebook} from 'react-icons/fa';
 import Button from 'react-bootstrap/Button';
 import {MdOutlineAppRegistration} from 'react-icons/md';
-
-
+import React, { useCallback } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './firstSection.css' 
 
 function FirstSection() {
+    const navigate = useNavigate();
+    const handleOnClickStep1= useCallback(() => navigate('/BookStep1', {replace: true}), [navigate]);
     return (
         <div className='homepage'>
             

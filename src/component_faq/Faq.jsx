@@ -1,12 +1,21 @@
-import React from 'react';
+
 import './faq.css'
+import { Button } from 'react-bootstrap';
+import React, { useCallback } from 'react';
+import { useNavigate } from 'react-router-dom';
+import AnimetedPagesUp from '../AnimatedPagesUP';
 
 function Faq() {
+    const navigate = useNavigate();
+    const handleOnClickHome= useCallback(() => navigate('/Home', {replace: true}), [navigate]);
+
     return (
+        <AnimetedPagesUp>
         <div className='faq'>
             <div className='upperSection'>
                 <h1 dir="rtl">שאלות נפוצות</h1>
             </div>
+            <Button onClick={handleOnClickHome}> חזרה</Button>
             <div className='bottomSection'>
                 <div className='bottomSection-content'>
                     <div className='bottomSection-content-faqText'>
@@ -41,6 +50,7 @@ function Faq() {
                 </div>
             </div>
         </div>
+        </AnimetedPagesUp>
     );
 }
 export default Faq;
