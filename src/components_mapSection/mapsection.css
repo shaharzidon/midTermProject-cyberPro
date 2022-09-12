@@ -6,9 +6,19 @@
   background-color: #fbf0db;
   margin-bottom: 0px;
 }
+.mapSection .map-frame iframe {
+  width: 60vw;
+  height: 60vh;
+}
+@media screen and (max-width: 768px) {
+  .mapSection .map-frame iframe {
+    width: 60vw;
+    height: 20vh;
+  }
+}
 
 @media screen and (max-width: 768px) {
-    .mapSection {
+  .mapSection {
     background-color: #d6cbb6;
   }
 }

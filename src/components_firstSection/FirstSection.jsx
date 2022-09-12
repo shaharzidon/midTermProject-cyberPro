@@ -5,6 +5,7 @@ import {MdOutlineAppRegistration} from 'react-icons/md';
 import React, { useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './firstSection.css' 
+import {animationSlice} from '../animationSlice';
 
 function FirstSection() {
     const navigate = useNavigate();
@@ -18,7 +19,7 @@ function FirstSection() {
             <div className='btndiv'>
                <Button className='homebtn1'>עקבו אחרינו בפייסבוק<FaFacebook/></Button> 
               
-               <Button className='homebtn2' ><h4>קבעו קיאק להתנדבות<MdOutlineAppRegistration/></h4></Button>
+               <Button className='homebtn2' onClick={()=>{Object.assign(animationSlice, {animationDiraction: "up"});handleOnClickStep1()}} ><h4>קבעו קיאק להתנדבות<MdOutlineAppRegistration/></h4></Button>
 
                 </div>
              

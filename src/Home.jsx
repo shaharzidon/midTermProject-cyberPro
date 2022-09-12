@@ -18,6 +18,7 @@ import Contact from './Contact/Contact';
 import MainNav from './navbarComponents/Topnavbar';
 import { Link,Outlet } from "react-router-dom";
 import AnimetedPagesDown from './AnimatedPagesDown'
+import FlipCards from './components_flipCards/FlipCards'
 
 
 function Home() {
@@ -30,10 +31,9 @@ function Home() {
 
     <FirstSection></FirstSection>
     <OurImpact></OurImpact>
+    <FlipCards></FlipCards>
     <JoinUs>  </JoinUs>
-    
     <Mapsection ></Mapsection>
-    
     <EndSection></EndSection>
     
   
