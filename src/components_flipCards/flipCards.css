@@ -109,3 +109,12 @@
   background-color: rgba(0, 89, 255, 0.13);
   padding: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  .flipCards
+  {
+   height: 130vh;
+   width: 100vw;
+
+  }
+}

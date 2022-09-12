@@ -13,9 +13,9 @@ import BookStep2 from './bookComponent/book-step2';
 import BookStep3 from './bookComponent/book-step3';
 import Example from './bookComponent/book-step3';
 import BookStep4 from './bookComponent/book-step4';
-// import Contribute from './ContributeComponent/Contribute';
 import Contact from './Contact/Contact';
 import MainNav from './navbarComponents/Topnavbar';
+import Contribute from './component_contribute/Contribute';
 
 
 function App() {
@@ -32,9 +32,8 @@ function App() {
       {/* about us */}
       <OurStory></OurStory>
       <Faq></Faq>
-      
+      <Contribute></Contribute>
       <Contact></Contact>
-      {/* <Contribute></Contribute> */}
       <BookStep1></BookStep1>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaHeart } from 'react-icons/fa';
+import { FaHeart , FaPhone, FaUserFriends} from 'react-icons/fa';
 import './ourStory.css'
 import Button from 'react-bootstrap/Button';
 import teamimg from './teamimg.jpeg'

@@ -26,6 +26,16 @@
   
 }
 
+@media screen and (max-width: 768px){
+.btndiv {
+  transform: translateX(5vw) translateY(-78vh);
+  display: flex;
+  /* align-content: stretch; */
+  justify-content: flex-end;
+  flex-direction: column;
+}
+}
+
 .logo {
   margin-top: -10px;
   margin-left: 3%;
@@ -56,7 +66,7 @@
 }
 
 .nav-link:hover:after {
-  transform: scaleX(1);
+  transform: scaleX(1); 
   transform-origin: bottom center;
 }
 
@@ -67,17 +77,23 @@
   border: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .text{
+    transform: translateX(-12vw) translateY(-55vh);
+  }
+}
+
 div.volunteerbtn {
   height: 0px;
   align-items: center;
-  margin-left: 78%;
   display: flex;
   flex-direction: column-reverse;
   flex-wrap: wrap;
   align-content: flex-end;
   justify-content: flex-end;
-  margin-top: 10vh;
-  margin-left: 56%;
+  margin-top: 6vh;
+  margin-left: 73%;
+
 
 }
 
@@ -222,6 +238,7 @@ div.volunteerbtn {
   }
 }
 
+
 @media screen and (max-width: 768px) {
   .nav {
     visibility: hidden;
@@ -229,6 +246,6 @@ div.volunteerbtn {
 }
 @media screen and (max-width: 768px) {
   .logo {
-    transform: translateX(275px) translateY(-30px);
+    transform: translateX(78vw) translateY(0vh);
   }
 }
