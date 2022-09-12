@@ -153,6 +153,13 @@
   background-color: #fbf0db;
 }
 
+.backupbtn{
+  background-color: #175a3f !important;
+  height: fit-content!important;
+  width: fit-content!important;
+
+}
+
 @media screen and (max-width: 768px) {
   .section1-title h1 {
     transform: translate(-60vw, 0);
