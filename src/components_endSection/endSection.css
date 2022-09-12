@@ -14,16 +14,18 @@ table {
     width: 100%;
     border-spacing: 50%;
     margin-bottom: -12vh;
+    transform: translate(-6vw);
   }
   
   th {
-    height: 70px;
+    height: 8vh;
     font-size: xx-large;
     margin-bottom: 0%;
+    
   }
 
   td {
-    height: 70px;
+    height: 8vh;
     font-size: x-large;
     margin-bottom: 0%;
   }
@@ -33,7 +35,7 @@ table {
 
   .social-media-icons{
     color:black;
-    font-size: 80px;
+    font-size: 10vh;
     margin-top: 0px;
   }
 
@@ -44,8 +46,8 @@ table {
   }
 
 .social-media-icons .instagram{
-margin-left: 10px;
-margin-right: 10px;
+margin-left: 1vw;
+margin-right: 1vw;
 }
 .social-media-icons .instagram :hover{
 color: purple;
@@ -55,4 +57,15 @@ color: purple;
 }
 .social-media-icons .youtube :hover{
   color:#FF0000
+}
+
+@media screen and (max-width: 768px) {
+  th {
+  font-size: small;
+  }
+}
+@media screen and (max-width: 768px) {
+  td {
+   font-size: small;
+  }
 }

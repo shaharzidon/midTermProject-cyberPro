@@ -14,8 +14,8 @@
 }
 .flip-card {
   background-color: transparent;
-  width: 400px;
-  height: 250px;
+  width: 30vw;
+  height: 30vw;
   perspective: 1000px;
   
 }
@@ -44,8 +44,9 @@
 }
 
 .flip-card-front {
-  background-color: #a2a3bbbb;
+  background-color: transparent;
   color: black;
+  margin-top: -6px;
 }
 
 .flip-card-back {
@@ -63,35 +64,35 @@
 
 .flip-card1 {
   background-size: cover;
-  height: 250px;
-  width: 400px;
+  height: 30vw;
+  width: 30vw;
   background-repeat: no-repeat;
   background-image: url(./flipCardsPics/flipcard1.jpeg);
   background-position: center;
   color: white;
-  transform: translateY(-3%);
+  /* transform: translateY(-3%); */
 }
 
 .flip-card2 {
   background-size: cover;
-  height: 250px;
-  width: 400px;
+  height: 30vw;
+  width: 30vw;
   background-repeat: no-repeat;
   background-image: url(./flipCardsPics/flipcard2.jpeg);
   background-position: 10% 24%;
   color: white;
-  transform: translateY(-3%);
+  /* transform: translateY(-3%); */
 }
 
 .flip-card3 {
   background-size: cover;
-  height: 250px;
-  width: 400px;
+  height: 30vw;
+  width: 30vw;
   background-repeat: no-repeat;
   background-image: url(./flipCardsPics/flipcard3.jpeg);
   background-position: 10% 25%;
   color: white;
-  transform: translateY(-3%);
+  /* transform: translateY(-3%); */
 }
 
 .services-info .flip-card .flip-card-inner .flip-card-front i {

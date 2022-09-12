@@ -40,6 +40,17 @@
     margin-top: 32vh;
     
 }
+@media screen and (max-width: 768px) {
+    .btn-ctrl
+    {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 32vh;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+  }
+}
 .btn-ctrl :hover{
     background-color: #2fb5d0 !important;
     display: flex;
