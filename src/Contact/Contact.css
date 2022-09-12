@@ -17,7 +17,7 @@
   position: relative;
   width: 35vw;
   height: 75vh;
-  background-color: #2eb5d0;
+  background-color: #175a40;
   margin-top: 10vh;
   margin-left: 5vw;
   border-radius: 3%;
@@ -54,7 +54,7 @@ textarea {
 }
 
 .left-contant-container {
-  background-color: #2eb5d0;
+  background-color: #175a40;
   opacity: 90%;
   width: 45vw;
   height: 75vh;

@@ -71,7 +71,7 @@ function OurStory() {
                         <button className='contribution' dir="rtl"> ביצוע תרומה <FaHeart></FaHeart></button> */}
                     </div>
                     <div className='section2-rightSection-iframe'>
-                        <iframe width="320" height="290" src="https://www.youtube.com/embed/xDVJkwq0Uyw"
+                        <iframe  className='responsive-iframe' src="https://www.youtube.com/embed/xDVJkwq0Uyw"
                             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
                       clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen>
@@ -109,7 +109,7 @@ function OurStory() {
                     </p>
                 </div>
                 <div>
-                    <img src={teamimg} height={450} width={600} />
+                    <img src={teamimg} />
                 </div>
             </div>
             <div className='section4'>
