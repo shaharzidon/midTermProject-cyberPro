@@ -1,150 +1,142 @@
-
-.first-section{
-    background: url(boatimg.jpeg);
-   position: fixed;
-    background-repeat: no-repeat;
-    width: 100vw;
-    /* filter:brightness(0.75); */
-    height: 100vh;
-background-size: cover;
-position:unset;
-
-  
-    
-
+.first-section {
+  background: url(boatimg.jpeg);
+  position: fixed;
+  background-repeat: no-repeat;
+  width: 100vw;
+  /* filter:brightness(0.75); */
+  height: 100vh;
+  background-size: cover;
+  position: unset;
 }
 
-.div2{
-    height: 30vh;
-    width: 100vw;
-}
-.contant-container{
-
-    font-family: system-ui;
-    color: black;
-       opacity: 100%;
-        
+.homepage{
+  height:100vh
 }
 
-
-.contant-containe{
-    font-weight: bold;
-    margin: 0;
-
-    
-   
-}
-
-
-
-.text{
-    
-    font-weight: bold;
-    margin-right: -10%;
-    color: rgb(255 255 255);
-    position: absolute;
-    /* margin-right: 0%; */
-    margin-left: 10%;
-    margin-top: -42%;
-    font-size: 8vh;
-text-shadow: -4px 0px 20px black;
-
-
-
-margin-left: 17%;
-
- 
-   
-}
-
-.buttons-ctrl{
-    background-color: darkgreen;
-    width: fit-content;
-    margin-bottom: 90%;
-}
-.btndiv{
-    position: absolute;
-    margin-top: -16%;
-    height: 100vh;
-    margin-left: 70%;
-    
-
-}
-.homebtn{
-    background-color: #2EB5D0;
-    border-color: black;
-    width: 20vw;
-    border-width: 1.5px;
-    margin-left: 3%;
-    margin: 3px;
-    place-items: end;
-    
-  
-}
-.volunteerbtn:hover{background-color:#175A40 ;
-    border-color: white;
-    
-}
-
-.homebtn1{background-color: #444344  !important;
-color: white;
-margin:  3%!important;
-border: none;
-width: 20vw;
-border-radius: 3px;
-cursor: pointer;
-font-size: smaller;font-weight: bold;
-margin-top: 20vh!important;
-margin-left: 5vw!important;
-transform: translateY(-10vh); }
-
-
-.homebtn2{   
-    background-color: Transparent!important;
-    border: 6px!important;
-    border-color: black !important;
-    cursor:pointer!important;
-    overflow: hidden!important;    
-    
-    /* background-color: #444344  !important; */
-color: rgb(4, 4, 4)!important;
-margin:  3%!important;
-border: none;
-width: 20vw;
-border-radius: 3px;
-cursor: pointer;
-font-size:xx-large;font-weight: bold!important;
-margin-top: 0vh!important;
-margin-left: 5vw!important;
-transform: translateY(-10vh); }
-
-.homebtn1:hover{background-color:
-    #4267B2!important;
-
-}
-.homebtn2:hover{background-color:
-    #12a182!important;
-
+.first-section-contant-container-btndiv{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  transform: translatey(-70%)
 }
 
 @media screen and (max-width: 768px) {
-    .text
-    {
-        transform: translateX(240px) translateY(-500px);
-    }
+  .homepage{
+    height: 100vh;
   }
+}
+
+.div2 {
+  height: 30vh;
+  width: 100vw;
+}
+.contant-container {
+  font-family: system-ui;
+  color: black;
+  opacity: 100%;
+}
+
+.contant-containe {
+  font-weight: bold;
+  margin: 0;
+}
+
+.text {
+  font-weight: bold;
+  color: rgb(255 255 255);
+  position: absolute;
+  margin-top: -42%;
+  font-size: 8vh;
+  text-shadow: -4px 0px 20px black;
+
+  margin-left: 17%;
+}
+
+.buttons-ctrl {
+  background-color: darkgreen;
+  width: fit-content;
+  margin-bottom: 90%;
+}
+
+.btndiv {
+  position: absolute;
+  margin-top: -16%;
+  height: 100vh;
+  margin-left: 70%;
+  
+}
+.homebtn {
+  background-color: #2eb5d0;
+  border-color: black;
+  width: 20vw;
+  border-width: 1.5px;
+  margin-left: 3%;
+  margin: 3px;
+  place-items: end;
+}
+.volunteerbtn:hover {
+  background-color: #175a40;
+  border-color: white;
+}
+
+.homebtn1 {
+  background-color: #444344 !important;
+  color: white;
+  margin: 3% !important;
+  border: none;
+  width: 20vw;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: smaller;
+  font-weight: bold;
+  margin-top: 20vh !important;
+  margin-left: 5vw !important;
+  transform: translateY(-10vh);
+}
+
+.homebtn2 {
+  background-color: Transparent !important;
+  border: 6px !important;
+  border-color: black !important;
+  cursor: pointer !important;
+  overflow: hidden !important;
+
+  /* background-color: #444344  !important; */
+  color: rgb(4, 4, 4) !important;
+  margin: 3% !important;
+  border: none;
+  width: 20vw;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: xx-large;
+  font-weight: bold !important;
+  margin-top: 0vh !important;
+  margin-left: 5vw !important;
+  transform: translateY(-10vh);
+}
+
+.homebtn1:hover {
+  background-color: #4267b2 !important;
+}
+.homebtn2:hover {
+  background-color: #12a182 !important;
+}
+
 @media screen and (max-width: 768px) {
-    .btndiv
-    {
-        transform: translateX(-181px) translateY(-850px);
-        display: flex;
-        flex-wrap: nowrap;
-        align-content: center;
-        justify-content: space-evenly;
-        align-items: flex-end;
-        flex-direction: row-reverse;
-    }
+  .text {
+    transform: translateX(240px) translateY(-500px);
+    font-size: 6vh;
   }
+}
+@media screen and (max-width: 768px) {
+  .first-section-contant-container-btndiv {
+    transform: translateX(0vw) translateY(-46vh);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+}
 /* @media screen and (max-width: 768px) {
     .homebtn2
     {

@@ -36,10 +36,13 @@
 }
 }
 
-.logo {
-  margin-top: -10px;
-  margin-left: 3%;
-}
+  .logo {
+      margin-top: -3%;
+      margin-left: 3%;
+      width: 5%;
+  }
+   
+
 
 .volunteerbtn:hover {
   background-color: transparent;
@@ -246,7 +249,10 @@ div.volunteerbtn {
 }
 @media screen and (max-width: 768px) {
   .logo {
-    transform: translateX(78vw) translateY(0vh);
+    visibility: hidden;
   }
 }
 
+.ham-logo{
+  width: 30%;
+}

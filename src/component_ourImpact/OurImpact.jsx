@@ -11,7 +11,7 @@ function OurImpact() {
             <div className='upper-section'>
                 <div className='left-section'>
                     <div className='left-section-img'>
-                        <h3><img className='icon1img' src={icon1} height={400} width={350} /></h3>
+                        <h3><img className='icon1img' src={icon1} /></h3>
                     </div>
                     <div className='left-section-text'>
                         <div dir='rtl' className="logo1text1">נכון לשנת 2022 למיזם יש: </div>
@@ -22,7 +22,7 @@ function OurImpact() {
                 </div>
                 <div className='right-section'>
                     <div className='right-section-img'>
-                        <h3><img className='icon2img' src={icon2} height={400} width={350} /></h3>
+                        <h3><img className='icon2img' src={icon2} /></h3>
                     </div>
                     <div className='right-section-text'>
                         <div dir='rtl' className='icon2text1'>מתנדבי ומתנדבות ״הקיאק״ ליקטו יותר מ: <p></p></div>

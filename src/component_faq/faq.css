@@ -2,6 +2,12 @@
   background-color: #fbf0db;
   margin: 0px;
 }
+@media screen and (max-width: 768px) {
+  .faq {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 .upperSection {
   background-color: #fbf0db;
@@ -30,10 +36,20 @@
   margin-left: -10%;
   text-align: right;
 }
+
 @media screen and (max-width: 768px) {
   .bottomSection-content {
-    height: 97vh !important;
-
+    filter: drop-shadow(2px 4px 6px black);
+    color: white;
+    background-color: #175a40;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    width: 68vw;
+    height: 59vh;
+    transform: translateY(113px) translatex(370px);
+    margin-left: -10%;
+    text-align: right;
   }
 }
 
