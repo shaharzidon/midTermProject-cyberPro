@@ -84,28 +84,30 @@ function BookStep1() {
       <AnimetedPagesUp>
     <div className='step1-mainContainer'>
   <div className='line-step1'></div>
-  <h4 className='step1-h4'> בחר היכן תרצה לשוט</h4>
+  <h4 className='step1-h4'>1 בחר היכן תרצה לשוט</h4>
   <div > <Button className="back-step1" onClick={handleOnClickHome}  variant="dark" >חזרה</Button></div>
 <div class="step4-contant-container">
 
   <span className='span-step1'>     
-       <div class="box box-1">
-            <div class="cover"><img src= {telaviv}  className='img-step1' alt="" onClick={() => { localStorage.setItem('city', 'תל אביב');Object.assign(animationSlice, {animationDiraction: "right"});handleOnClickTelAviv(); dispatch(setTelAviv());}}/><div>תל אביב</div></div>
+       <div class="box box-1 firstimgs-step1">
+            <div class="cover "><img src= {telaviv}  className='img-step1  ' alt="" onClick={() => { localStorage.setItem('city', 'תל אביב');Object.assign(animationSlice, {animationDiraction: "right"});handleOnClickTelAviv(); dispatch(setTelAviv());}}/><div>תל אביב</div></div>
             
         </div>
-        <div class="box box-2">
-            <div class="cover"><img  src={kinert} alt=""  className='img-step1' onClick={() => {localStorage.setItem('city', 'כינרת');Object.assign(animationSlice, {animationDiraction: "right"});handleOnClickTveria(); dispatch(setTveria());}}/> <div>כינרת</div></div>
+        <div className='toHide'></div>
+        <div class="box box-2 secimg-step1">
+            <div class="cover"><img  src={kinert} alt=""  className='img-step1  ' onClick={() => {localStorage.setItem('city', 'כינרת');Object.assign(animationSlice, {animationDiraction: "right"});handleOnClickTveria(); dispatch(setTveria());}}/> <div>כינרת</div></div>
             </div>
-
+            
         </span>
         <span className='span-step1 secspan_step1'>
 
-        <div class="box box-3">
-            <div class="cover"><img src={eylat} alt=""  className='img-step1'onClick={() => {localStorage.setItem('city', 'אילת');Object.assign(animationSlice, {animationDiraction: "right"});handleOnClickEylat(); dispatch(setEylat());}}/> <div>אילת</div></div>
+        <div class="box box-3 firstimgs-step1" >
+            <div class="cover "><img src={eylat} alt=""  className='img-step1  'onClick={() => {localStorage.setItem('city', 'אילת');Object.assign(animationSlice, {animationDiraction: "right"});handleOnClickEylat(); dispatch(setEylat());}}/> <div>אילת</div></div>
            
         </div>
-        <div class="box box-4">
-            <div class="cover"><img src={hadera} alt=""  className='img-step1'  onClick={() => {localStorage.setItem('city', 'כינרת');Object.assign(animationSlice, {animationDiraction: "right"});handleOnClickTveria(); dispatch(setTveria());}}/><div>חדרה</div></div>
+        <div className='toHide'></div>
+        <div class="box box-4 secimg-step1">
+            <div class="cover '"><img src={hadera} alt=""  className='img-step1 '   onClick={() => {localStorage.setItem('city', 'חדרה');Object.assign(animationSlice, {animationDiraction: "right"});handleOnClickHeifa(); dispatch(setHeifa());}}/><div>חדרה</div></div>
            
         </div>
         </span>

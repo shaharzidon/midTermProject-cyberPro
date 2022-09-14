@@ -12,13 +12,29 @@
   align-items: stretch;
   align-content: stretch;
 }
+@media screen and (max-width: 768px){
+.flipCards-bottomSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+}
 .flip-card {
   background-color: transparent;
   width: 30vw;
-  height: 30vw;
+  height: 30vh;
   perspective: 1000px;
   
 }
+
+@media screen and (max-width: 768px) {
+  .flip-card
+  {
+   height: 250px;
+   width: 250px;
+  }
+}
+
 
 .flip-card-inner {
   position: relative;
@@ -64,7 +80,7 @@
 
 .flip-card1 {
   background-size: cover;
-  height: 30vw;
+  height: 30vh;
   width: 30vw;
   background-repeat: no-repeat;
   background-image: url(./flipCardsPics/flipcard1.jpeg);
@@ -73,9 +89,17 @@
   /* transform: translateY(-3%); */
 }
 
+@media screen and (max-width: 768px) {
+  .flip-card1
+  {
+   height: 250px;
+   width: 250px;
+  }
+}
+
 .flip-card2 {
   background-size: cover;
-  height: 30vw;
+  height: 30vh;
   width: 30vw;
   background-repeat: no-repeat;
   background-image: url(./flipCardsPics/flipcard2.jpeg);
@@ -84,15 +108,31 @@
   /* transform: translateY(-3%); */
 }
 
+@media screen and (max-width: 768px) {
+  .flip-card2
+  {
+   height: 250px;
+   width: 250px;
+  }
+}
+
 .flip-card3 {
   background-size: cover;
-  height: 30vw;
+  height: 30vh;
   width: 30vw;
   background-repeat: no-repeat;
   background-image: url(./flipCardsPics/flipcard3.jpeg);
   background-position: 10% 25%;
   color: white;
   /* transform: translateY(-3%); */
+}
+
+@media screen and (max-width: 768px) {
+  .flip-card3
+  {
+   height: 250px;
+   width: 250px;
+  }
 }
 
 .services-info .flip-card .flip-card-inner .flip-card-front i {
@@ -111,11 +151,32 @@
   padding: 10px;
 }
 
+
+
 @media screen and (max-width: 768px) {
   .flipCards
   {
    height: 130vh;
-   width: 100vw;
+   width: 100vw
+  }
+}
+@media screen and (max-width: 768px) {
+  .flip-card-back h3{
+    font-size: large;
+}
 
+}
+@media screen and (max-width: 768px) {
+  .flip-card-back p{
+    font-size: medium;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+  .flipCards
+  {
+   height: 130vh;
+   width: 100vw
   }
 }

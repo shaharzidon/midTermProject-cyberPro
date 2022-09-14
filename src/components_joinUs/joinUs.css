@@ -1,94 +1,80 @@
-.main-title{
-    text-shadow: -20px -2px 20px white;
+.main-title {
+  text-shadow: -20px -2px 20px white;
 }
-.joinUs{
-    background-image: url(background2.jpeg);
-    background-size: 100vw 100vh;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
-    background-position: 10% 25%;       
-}
-.secondary-title{
-    text-align: center;
-    font-weight: bolder;
-    margin-top: 5%;
-    margin-bottom: 10%;
-   font-size: 60px;
-    text-shadow: -2px 0px 20px black;
-    color: aliceblue;
-    margin-top: 43vh;
-    margin-bottom: -6%;
-
+.joinUs {
+  background-image: url(background2.jpeg);
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  background-position: 10% 25%;
 }
 
 
-.para{
-    
-    font-weight: 600;
-    line-height: 2;
-    margin: 30px;
-    color: #fffffc;
-    margin-left: 16%;
-    margin-right: 16%;
-    text-shadow: -5px -1px 20px black
+@media screen and (max-width: 768px) {
+  .secondary-title-joinTitle {
+  }
 }
 
-.btn-ctrl{
-    display: flex;
-    justify-content: center;
-    margin-top: 32vh;
-    
+.para {
+  font-weight: 600;
+  line-height: 2;
+  margin: 30px;
+  color: #fffffc;
+  margin-left: 16%;
+  margin-right: 16%;
+  text-shadow: -5px -1px 20px black;
+}
+
+.btn-ctrl {
+  display: flex;
+  justify-content: center;
+  margin-top: 32vh;
 }
 @media screen and (max-width: 768px) {
-    .btn-ctrl
-    {
+  .btn-ctrl {
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 32vh;
+    margin-top: 10%;
     flex-wrap: nowrap;
     flex-direction: column;
     align-content: center;
   }
 }
-.btn-ctrl :hover{
-    background-color: #2fb5d0 !important;
-    display: flex;
-    justify-content: center;
-    background-color: transparent;
+.btn-ctrl :hover {
+  background-color: #2fb5d0 !important;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
 }
 
-.btn1{
-    background-color: #175a3f!important;
-    color: white !important;
+.btn1 {
+  background-color: #175a3f !important;
+  color: white !important;
 }
-.btn2{
-
-    background-color: #175a3f!important;
-    color: white !important;
+.btn2 {
+  background-color: #175a3f !important;
+  color: white !important;
 }
-.btn3{
-   
-    background-color: #175a3f!important;
-    color: white !important;
+.btn3 {
+  background-color: #175a3f !important;
+  color: white !important;
 }
-.btn4{
-
-    background-color: #175a3f!important;
-    color: white !important;
+.btn4 {
+  background-color: #175a3f !important;
+  color: white !important;
 }
-.images{
-
-    display: flex;
-    justify-content: space-around;
+.images {
+  display: flex;
+  justify-content: space-around;
 }
 
 @media screen and (max-width: 768px) {
-    .joinUs
-    {
-     height: 130vh;
-     width: 100vw;
+  .joinUs {
+    height: 145vh;
+    width: 100vw;
     background-color: #fbf0db;
     background-image: none;
-    }
+    display: flex;
+    flex-direction: column;
   }
+}

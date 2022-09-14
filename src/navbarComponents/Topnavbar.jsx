@@ -25,7 +25,7 @@ function MainNav() {
   return (
     <>
      <div className="mainnav">
-      <Navbar > <img className='logo' src={logo} width={120} height={100}></img>
+      <Navbar > <img className='logo' src={logo}></img>
         <Container>
           <Nav className="nav">
             <span>
@@ -53,6 +53,7 @@ function MainNav() {
       <span></span>
     
       <ul id="menu">
+      <img className='ham-logo' src={logo}></img>
         <a href="#home" onClick={handleOnClickOurStory}><li>עלינו</li></a>
         <a href="#about" onClick={handleOnClickFaq}><li>שאלות ותשובות</li></a>
         <a href="#services" onClick={handleOnClickContact}><li>צרו קשר</li></a>

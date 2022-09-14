@@ -27,7 +27,7 @@ const city = useSelector(value)
           על ידי לחיצה על כפתור התרומה הממוקם בראש האתר ובכך לתמוך בנו בשאיפה לארץ נקייה ויפה 
             </div>
             <div className='secondary-title'>
-                <h2 dir="rtl">קחו חלק בקבוצות הפייסבוק שלנו:</h2>
+                <h2 className='secondary-title-joinTitle' dir="rtl">קחו חלק בקבוצות הפייסבוק שלנו:</h2>
             </div>
             <div className='btn-ctrl'>
             <Button className='btn1' variant="outline-* btn-lg"  onClick={() => {handleOnClickTelAviv(); dispatch(setTelAviv());}}>תל אביב</Button>
