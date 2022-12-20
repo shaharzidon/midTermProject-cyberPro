@@ -20,7 +20,7 @@ import { ReactDOM } from 'react';
 import Home from './Home';
 import store from './store';
 import { Provider } from 'react-redux';
-import {AnimatePresence, motion} from 'framer-motion'
+import { AnimatePresence, motion } from 'framer-motion'
 
 
 function App() {
@@ -28,35 +28,35 @@ function App() {
 
 
   return (
-    <div className="App">   
+    <div className="App">
 
-<BrowserRouter>   
-<Provider store={store}>
-  {/* <MainNav></MainNav> */}
+      <BrowserRouter>
+        <Provider store={store}>
+          {/* <MainNav></MainNav> */}
 
-    
-    <AnimatePresence>
-  <Routes >
-  <Route path="/contribute" element={<Contribute />} />
-  <Route path="/BookStep1" element={<BookStep1/>} />
-  <Route path="/BookStep2" element={<BookStep2 />} />
-  <Route path="/BookStep3" element={<BookStep3 />} />
-  <Route path="/BookStep4" element={<BookStep4 />} />
-  <Route path="/Mapsection" element={<Mapsection />} />    
-  <Route path="/OurStory" element={<OurStory />} />
-  <Route path="/Home" element={<Home/>}/>
-  <Route path="/contact" element={<Contact />} />
-  <Route path="/Faq" element={<Faq/>} />
-  <Route path="/" element={<Home/>}/>
-  </Routes>
-  </AnimatePresence>
-  
-  </Provider>
-  
- </BrowserRouter>
-  
-     </div>     
-   
+
+          <AnimatePresence>
+            <Routes >
+              {/* <Route path="/contribute" element={<Contribute />} /> */}
+              <Route path="/BookStep1" element={<BookStep1 />} />
+              <Route path="/BookStep2" element={<BookStep2 />} />
+              <Route path="/BookStep3" element={<BookStep3 />} />
+              <Route path="/BookStep4" element={<BookStep4 />} />
+              <Route path="/Mapsection" element={<Mapsection />} />
+              <Route path="/OurStory" element={<OurStory />} />
+              <Route path="/Home" element={<Home />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/Faq" element={<Faq />} />
+              <Route path="/" element={<Home />} />
+            </Routes>
+          </AnimatePresence>
+
+        </Provider>
+
+      </BrowserRouter>
+
+    </div>
+
   );
 }
 

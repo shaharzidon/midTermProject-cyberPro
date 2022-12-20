@@ -6,65 +6,65 @@ import './components.css';
 import Button from 'react-bootstrap/Button';
 import logo from './finallogo.png';
 
-import {FaHeart} from 'react-icons/fa';
-import {MdOutlineAppRegistration} from 'react-icons/md';
-import React, {useCallback} from 'react';
-import {useNavigate} from 'react-router-dom';
-import { Link,Outlet } from "react-router-dom";
+import { FaHeart } from 'react-icons/fa';
+import { MdOutlineAppRegistration } from 'react-icons/md';
+import React, { useCallback } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { Link, Outlet } from "react-router-dom";
 import OurStory from '../component_ourStory/OurStory';
-import {animationSlice} from '../animationSlice';
+import { animationSlice } from '../animationSlice';
 
 function MainNav() {
   const navigate = useNavigate();
-  const handleOnClickContribute = useCallback(() => navigate('/contribute', {replace: true}), [navigate]);
-  const handleOnClickOurStory = useCallback(() => navigate('/OurStory', {replace: true}), [navigate]);
-  const handleOnClickStep1= useCallback(() => navigate('/bookStep1', {replace: true}), [navigate]);
-  const handleOnClickFaq= useCallback(() => navigate('/Faq', {replace: true}), [navigate]);
-  const handleOnClickContact= useCallback(() => navigate('/contact', {replace: true}), [navigate]);
+  // const handleOnClickContribute = useCallback(() => navigate('/contribute', {replace: true}), [navigate]);
+  const handleOnClickOurStory = useCallback(() => navigate('/OurStory', { replace: true }), [navigate]);
+  const handleOnClickStep1 = useCallback(() => navigate('/bookStep1', { replace: true }), [navigate]);
+  const handleOnClickFaq = useCallback(() => navigate('/Faq', { replace: true }), [navigate]);
+  const handleOnClickContact = useCallback(() => navigate('/contact', { replace: true }), [navigate]);
 
   return (
     <>
-     <div className="mainnav">
-      <Navbar > <img className='logo' src={logo}></img>
-        <Container>
-          <Nav className="nav">
-            <span>
-            <Nav.Link onClick={handleOnClickOurStory} > עלינו </Nav.Link>
-            </span>
-            <span>
-            <Nav.Link onClick={handleOnClickContact} > צרו קשר </Nav.Link>
-            </span>
-            <span>
-            <Nav.Link onClick={handleOnClickFaq} > שאלות ותשובות</Nav.Link>
-            </span>
-          
-          </Nav>
-        </Container>
-      </Navbar>    <div className='volunteerbtn' ><Button className='volunteerbtn' onClick={()=>{Object.assign(animationSlice, {animationDiraction: "up"});handleOnClickStep1()}} >הירשמו להתנדבות <MdOutlineAppRegistration/></Button>
-          <Button className='volunteerbtn'  onClick={handleOnClickContribute}>תרמו לנו <FaHeart/></Button></div>
+      <div className="mainnav">
+        <Navbar > <img className='logo' src={logo}></img>
+          <Container>
+            <Nav className="nav">
+              <span>
+                <Nav.Link onClick={handleOnClickOurStory} > עלינו </Nav.Link>
+              </span>
+              <span>
+                <Nav.Link onClick={handleOnClickContact} > צרו קשר </Nav.Link>
+              </span>
+              <span>
+                <Nav.Link onClick={handleOnClickFaq} > שאלות ותשובות</Nav.Link>
+              </span>
 
-   {/* hamburger */}
-  <nav role="navigation" class="hamburgerNav">
-    <div id="menuToggle">
-     
-      <input type="checkbox" />
-      <span></span>
-      <span></span>
-      <span></span>
-    
-      <ul id="menu">
-      <img className='ham-logo' src={logo}></img>
-        <a href="#home" onClick={handleOnClickOurStory}><li>עלינו</li></a>
-        <a href="#about" onClick={handleOnClickFaq}><li>שאלות ותשובות</li></a>
-        <a href="#services" onClick={handleOnClickContact}><li>צרו קשר</li></a>
-        <a href="#services" onClick={()=>{Object.assign(animationSlice, {animationDiraction: "up"});handleOnClickStep1()}}><li>הירשמו להתנדבות <MdOutlineAppRegistration/></li></a>
-        <a href="#services"  onClick={handleOnClickContribute}><li>תרמו לנו <FaHeart/></li></a>
-      </ul>
-    </div>
-  </nav>
+            </Nav>
+          </Container>
+        </Navbar>    <div className='volunteerbtn' ><Button className='volunteerbtn' onClick={() => { Object.assign(animationSlice, { animationDiraction: "up" }); handleOnClickStep1() }} >הירשמו להתנדבות <MdOutlineAppRegistration /></Button>
+          <Button className='volunteerbtn'>תרמו לנו <FaHeart /></Button></div>
+
+        {/* hamburger */}
+        <nav role="navigation" class="hamburgerNav">
+          <div id="menuToggle">
+
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu">
+              <img className='ham-logo' src={logo}></img>
+              <a href="#home" onClick={handleOnClickOurStory}><li>עלינו</li></a>
+              <a href="#about" onClick={handleOnClickFaq}><li>שאלות ותשובות</li></a>
+              <a href="#services" onClick={handleOnClickContact}><li>צרו קשר</li></a>
+              <a href="#services" onClick={() => { Object.assign(animationSlice, { animationDiraction: "up" }); handleOnClickStep1() }}><li>הירשמו להתנדבות <MdOutlineAppRegistration /></li></a>
+              <a href="#services"><li>תרמו לנו <FaHeart /></li></a>
+            </ul>
           </div>
- 
-     
+        </nav>
+      </div>
+
+
     </>
   );
 }

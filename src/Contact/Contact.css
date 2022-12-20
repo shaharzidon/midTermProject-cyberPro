@@ -1,7 +1,25 @@
-.contribute-contact {
+.special {
+  margin: 3vh;
+}
+
+.contribute {
+  background-color: wheat;
+  position: absolute;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.side-contact {
+  width: 60vh;
+}
+
+.send-email {
+  margin: 3vh;
+}
+/* .contribute-contact {
   width: 100vw;
   height: 100vh;
-  /* background-image: url(riverStep1.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 1px;
@@ -26,11 +44,10 @@
   display: flex;
 }
 
-.special.submit-contact-dark{
-  width: fit-content!important;
+.special.submit-contact-dark {
+  width: fit-content !important;
   height: fit-content !important;
   transform: translate(2vw) !important;
-
 }
 
 label {
@@ -74,7 +91,6 @@ textarea {
 
 .submit-contact-dark {
   background-color: #049d63;
-  transform: translateX(100px) translateY(60px);
 }
 
 .contribute-contact-email {
@@ -87,9 +103,9 @@ textarea {
 }
 .img-contact {
   margin-bottom: -1%;
-}
+} */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .img {
     height: 250px;
     width: 250px;
@@ -98,6 +114,5 @@ textarea {
 @media screen and (max-width: 768px) {
   .submit-contact-dark.btn.btn-dark {
     transform: translate(0px, 1vh);
-    ;
   }
-}
+} */
