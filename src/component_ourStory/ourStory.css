@@ -1,5 +1,5 @@
 .section1 {
-  background-image: url("./background2.jpeg");
+  background-image: url('./background2.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 10% 53%;
@@ -153,11 +153,15 @@
   background-color: #fbf0db;
 }
 
-.backupbtn{
+.backupbtn {
   background-color: #175a3f !important;
-  height: fit-content!important;
-  width: fit-content!important;
+  height: fit-content !important;
+  width: fit-content !important;
+}
 
+.section2-leftSection-content-btn {
+  display: flex !important;
+  justify-content: center !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -168,7 +172,7 @@
 
 @media screen and (max-width: 768px) {
   .section2 {
-    height: 155vh;
+    height: 180vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -184,24 +188,39 @@
   .section2-rightSection-buttons {
     margin-right: 21vw;
     margin-top: -50vh;
+    transform: translate(4vh, 55vh);
   }
 }
 @media screen and (max-width: 768px) {
   .section3 {
-    height: 152vh;
+    height: 155vh;
     width: 100vw;
   }
 }
 
-.responsive-iframe{
+.responsive-iframe {
   width: 20vw;
   height: 36vh;
 }
 
-@media screen and (max-width: 768px){
-.responsive-iframe{
-  width: 20vw;
-  height: 36vh;
-}
+@media screen and (max-width: 768px) {
+  .responsive-iframe {
+    width: 80vw;
+    height: 30vh;
+  }
 }
 
+@media screen and (max-width: 768px) {
+  .section4-cardsSection-rightSection-content {
+    font-size: small;
+    width: 30vw;
+    margin-top: 2vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section4-cardsSection-leftSection-content {
+    font-size: small;
+    width: 30vw;
+    margin-top: 2vh;
+  }
+}

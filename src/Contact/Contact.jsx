@@ -18,7 +18,7 @@ function Contact() {
         <div className="contribute-contact">
 
           <div className='special'>
-            <Button dir='rtl' onClick={handleOnClickHome} className='submit-contact-dark' variant="dark" type='submit' >חזור</Button>
+            <Button dir='rtl' onClick={handleOnClickHome} className='submit-contact-dark contribute-contact-return-btn' variant="dark" type='submit' >חזרה</Button>
           </div>
           <div className='left-contant-container'>
             <div className='img-contact'>

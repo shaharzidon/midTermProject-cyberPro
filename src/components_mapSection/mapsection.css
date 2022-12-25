@@ -13,7 +13,7 @@
 @media screen and (max-width: 768px) {
   .mapSection .map-frame iframe {
     width: 60vw;
-    height: 20vh;
+    height: 30vh;
   }
 }
 
@@ -26,6 +26,7 @@
 @media screen and (max-width: 768px) {
   .map-frame {
     background-color: #d6cbb6;
+    height: 30vh;
   }
 }
 

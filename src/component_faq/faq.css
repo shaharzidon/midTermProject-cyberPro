@@ -31,7 +31,7 @@
   flex-direction: column-reverse;
   align-items: flex-end;
   width: 68vw;
-  height: 59vh;
+  height: 70vh;
   transform: translateY(113px) translatex(370px);
   margin-left: -10%;
   text-align: right;
@@ -74,4 +74,8 @@
     height: 85vh;
     margin-top: -10vh;
   }
+}
+
+.return-btn {
+  background-color: #175a3f !important;
 }

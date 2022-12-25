@@ -9,19 +9,19 @@
   position: unset;
 }
 
-.homepage{
-  height:100vh
+.homepage {
+  height: 100vh;
 }
 
-.first-section-contant-container-btndiv{
+.first-section-contant-container-btndiv {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  transform: translatey(-70%)
+  transform: translatey(-70%);
 }
 
 @media screen and (max-width: 768px) {
-  .homepage{
+  .homepage {
     height: 100vh;
   }
 }
@@ -63,7 +63,6 @@
   margin-top: -16%;
   height: 100vh;
   margin-left: 70%;
-  
 }
 .homebtn {
   background-color: #2eb5d0;
@@ -137,9 +136,8 @@
     flex-direction: column;
   }
 }
-/* @media screen and (max-width: 768px) {
-    .homebtn2
-    {
-        transform: translateX(240px) translateY(-500px);
-    }
-  } */
+@media screen and (max-width: 768px) {
+  .homebtn2 {
+    background-color: #175a3f !important;
+  }
+}

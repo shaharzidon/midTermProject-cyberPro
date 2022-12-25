@@ -1,202 +1,156 @@
+.btn-calender {
+  display: inline;
+  justify-content: space-evenly !important;
 
-
-    .btn-calender{
-        display: inline;
-      justify-content: space-evenly !important;
-
-        width: 8vw !important;
-        border-radius: 0!important;
-        height: 14vh!important;
-        margin: 3px!important;
-        text-align: center !important;
-        font-size: 1.5vw !important;
-        
-    }
-
-
-.calndar-container-text{
-    display: flex;
-    flex-direction: column;
-    text-align: start !important;
-    align-items: center!important;
-    justify-content: center!important;
-    font-size: 1.5vw !important;
-    justify-content: start !important;
-
+  width: 8vw !important;
+  border-radius: 0 !important;
+  height: 14vh !important;
+  margin: 3px !important;
+  text-align: center !important;
+  font-size: 1.5vw !important;
 }
 
-    .btn-calender:hover{
+.calndar-container-text {
+  display: flex;
+  flex-direction: column;
+  text-align: start !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 1.5vw !important;
+  justify-content: flex-start !important;
+}
 
-     
-    }
-    .step2-cal-text{
-        display: flex;
-        flex-direction: column;
-        text-align: start !important;
-        align-items: center!important;
-        justify-content: center!important;
-        font-size: 1.5vw !important;
-        justify-content: start !important;
-        
-        
-    }
-    /* .row{
+.btn-calender:hover {
+}
+.step2-cal-text {
+  display: flex;
+  flex-direction: column;
+  text-align: start !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 1.5vw !important;
+  justify-content: flex-start !important;
+}
+/* .row{
         margin-left: 4vw;
        
     
     } */
-    .step2PageContainer{
-        width: 100vw !important;
-        height: 100vh!important;
-        text-align: center!important;
-        display: flex!important;
-        justify-content: center!important;
-        align-items: center!important;
-        background-color:#fbf0db;
-        background-repeat: no-repeat!important;
-        background-size: cover!important;
-        overflow-x: hidden;
-    }
-    
-    .step2ContanetContainer{
-        width: 85vw!important;
-        height: 85vh!important;
-        background-color: white!important;
-        border-radius: 3%
-        
-    }
-    .step1Push
-    {
-        margin-top: 15vh;
-    }
-.hr2{
-    border-color: black!important;
-    width: 95%!important;
-    border-width: 2px!important;
-    opacity: 0.7!important;
-    margin-left: 2vw!important;
-    margin-bottom: 20vh !important;
-    
-
-    
+.step2PageContainer {
+  width: 100vw !important;
+  height: 100vh !important;
+  text-align: center !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background-color: #fbf0db;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  overflow-x: hidden;
 }
-    
-.back{
-    position: absolute;
-    top: 20vh;
-    right: 5vw;
-    width: 10vw !important;
-    height: 5vh!important;
-    display: flex !important;
+
+.step2ContanetContainer {
+  width: 85vw !important;
+  height: 85vh !important;
+  background-color: white !important;
+  border-radius: 3%;
+}
+.step1Push {
+  margin-top: 15vh;
+}
+.hr2 {
+  border-color: black !important;
+  width: 95% !important;
+  border-width: 2px !important;
+  opacity: 0.7 !important;
+  margin-left: 2vw !important;
+  margin-bottom: 20vh !important;
+}
+
+.back {
+  position: absolute;
+  top: 20vh;
+  right: 5vw;
+  width: 10vw !important;
+  height: 5vh !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 2vw !important;
+}
+.step2-h2 {
+  margin-top: 20vh !important;
+  margin-bottom: 5vh !important;
+}
+
+@media screen and (max-width: 300px) {
+  .calendar-roup2 .btn-calender {
+    display: none;
+  }
+
+  .step2-h2 {
+    font-size: 8vw !important;
+  }
+
+  .step2-cal-text {
+    display: flex;
+    flex-direction: column;
+    text-align: start !important;
     align-items: center !important;
     justify-content: center !important;
-    font-size: 2vw !important;
+    font-size: 3vw !important;
+  }
+
+  .calndar-container-text {
+    display: flex;
+    flex-direction: column;
+    text-align: start !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transform: translateY(-2vh);
+    font-size: 3vw !important;
+    justify-content: flex-start !important;
+  }
 }
-.step2-h2{
-    margin-top: 20vh !important;
-    margin-bottom: 5vh !important;
-}
-
-
-
-
-    @media screen and (max-width: 300px) {
-        .calendar-roup2 .btn-calender
-        {
-            display: none;
-           
-                  
-            }
-
-
-       
-           
-            
-            .step2-h2{
-
-                font-size: 8vw !important;
-            }
-        
-        
-            .step2-cal-text{
-                display: flex;
-                flex-direction: column;
-                text-align: start !important;
-                align-items: center!important;
-                justify-content: center!important;
-                font-size: 3vw !important;
-         
-            }
-            
-        
-            .calndar-container-text{
-                display: flex;
-                flex-direction: column;
-                text-align: start !important;
-                align-items: center!important;
-                justify-content: center!important; 
-                transform: translateY(-2vh);
-                font-size: 3vw !important;
-                justify-content: start !important;
-            
-            } 
-
-
-}
-
-
 
 @media screen and (max-width: 180px) {
-    .calendar-roup2 .btn-calender{
-        display: none;
-       
-              
-        }
-    
-        .btn-calender{
-            height: 5vh !important;
-            width: 10vw !important;
-            font-size: 10vw !important;
-          
-            
-    
-    
-            
-            
-        }
-        .back{
-            width: 60vw !important;
-            height: 2vh!important;    
-            padding: 8vw !important;
-            font-size: 4vw !important;
-            margin-right: 10vw !important;
-        }
-        .step2-h2{
-            font-size: 12vw !important;
-        }
-    
-    
-        .step2-cal-text{
-            display: flex;
-            flex-direction: column;
-            text-align: start !important;
-            align-items: center!important;
-            justify-content: center!important;
-            font-size: 6vw !important;
-     
-        }
-        
-    
-        .calndar-container-text{
-            display: flex;
-            flex-direction: column;
-            text-align: start !important;
-            align-items: center!important;
-            justify-content: center!important; 
-            transform: translateY(-2vh);
-            font-size: 6vw !important;
-            justify-content: start !important;
-        
-        }
-        
-    }
+  .calendar-roup2 .btn-calender {
+    display: none;
+  }
+
+  .btn-calender {
+    height: 5vh !important;
+    width: 10vw !important;
+    font-size: 10vw !important;
+  }
+  .back {
+    width: 60vw !important;
+    height: 2vh !important;
+    padding: 8vw !important;
+    font-size: 4vw !important;
+    margin-right: 10vw !important;
+  }
+  .step2-h2 {
+    font-size: 12vw !important;
+  }
+
+  .step2-cal-text {
+    display: flex;
+    flex-direction: column;
+    text-align: start !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 6vw !important;
+  }
+
+  .calndar-container-text {
+    display: flex;
+    flex-direction: column;
+    text-align: start !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transform: translateY(-2vh);
+    font-size: 6vw !important;
+    justify-content: flex-start !important;
+  }
+}

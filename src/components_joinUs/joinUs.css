@@ -10,7 +10,6 @@
   background-position: 10% 25%;
 }
 
-
 @media screen and (max-width: 768px) {
   .secondary-title-joinTitle {
   }
@@ -70,7 +69,7 @@
 
 @media screen and (max-width: 768px) {
   .joinUs {
-    height: 145vh;
+    height: 86vh;
     width: 100vw;
     background-color: #fbf0db;
     background-image: none;
