@@ -33,7 +33,7 @@ In the project directory, you can run:
 
 Home page. This website has only frontend interferce (has no server).
 
-![alt text](https://res.cloudinary.com/shaharcloud/image/upload/v1671999821/MyProjects/hakayak-readme_qlpsyw.png)
+![alt text](https://res.cloudinary.com/shaharcloud/image/upload/v1672002412/hakayak-readme_zt5kye.png)
 
 ## Technologies <a name="Technologies"></a>
 
